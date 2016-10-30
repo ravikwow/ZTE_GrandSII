@@ -1,0 +1,36 @@
+{
+  "localId": "clock",
+  "onlineId": null,
+  "productId": null,
+  "downloadPath": "/system/media/theme/gadget/clock/simple_clock_2x4.mtz",
+  "metaPath": "/system/media/theme/.data/meta/clock_2x4/clock.mrm",
+  "contentPath": "/system/media/theme/.data/content/clock_2x4/clock.mrc",
+  "hash": "9f2aeba9ec442d529cbca5836e57cd44abe0b4d7",
+  "size": 131151,
+  "updatedTime": 0,
+  "platform": 2,
+  "title": "Маленькие",
+  "description": null,
+  "author": "MIUI",
+  "designer": "MIUI",
+  "version": "1.0",
+  "downloadCount": null,
+  "buildInThumbnails": [
+    "/system/media/theme/.data/preview/clock_2x4/clock/preview_clock_0.jpg"
+  ],
+  "buildInPreviews": [
+    "/system/media/theme/.data/preview/clock_2x4/clock/preview_clock_0.jpg"
+  ],
+  "titles": {
+    "ru_RU": "Маленькие",
+    "uk_UA": "Маленький",
+    "en_US": "Default",
+    "zh_CN": "默认",
+    "zh_TW": "預設"
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [],
+  "subResources": [],
+  "extraMeta": {}
+}

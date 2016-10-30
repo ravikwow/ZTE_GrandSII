@@ -1,0 +1,35 @@
+#!/system/bin/sh
+
+pm disable com.miui.player/com.xiaomi.push.service.XMPushService
+pm disable com.miui.player/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.miui.yellowpage/com.xiaomi.push.service.XMPushService
+pm disable com.android.browser/com.xiaomi.push.service.XMPushService
+pm disable com.miui.cloudservice/com.xiaomi.push.service.XMPushService
+pm disable com.android.thememanager/com.xiaomi.push.service.XMPushService
+pm disable com.android.thememanager/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.android.settings/com.xiaomi.push.service.XMPushService
+pm disable com.android.settings/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.android.fileexplorer/com.xiaomi.push.service.XMPushService
+pm disable com.android.fileexplorer/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.facebook.katana/com.facebook.wallpaper.wallpaperprocess.FbWallpaperService
+pm disable com.facebook.katana/com.facebook.vault.service.VaultConnectivityChangeReceiver
+pm disable com.facebook.katana/com.facebook.oxygen.preloads.integration.dogfooding.AuthListener\$EmployeeLoggedInMarkerReceiver
+pm disable com.facebook.katana/com.facebook.photos.upload.receiver.ConnectivityChangeReceiver
+pm disable com.facebook.katana/com.facebook.deeplinking.activity.DeepLinkingLegacyAliasActivity
+pm disable com.facebook.katana/com.facebook.katana.urimap.LinkSharingNativeComposerAliasActivity
+pm disable com.android.email/com.kingsoft.email.service.LegacyEmailAuthenticatorService
+pm disable com.android.email/com.kingsoft.email.service.LegacyEasAuthenticatorService
+pm disable com.android.email/com.kingsoft.email.service.EmailUpgradeBroadcastReceiver
+pm disable com.android.providers.downloads/com.xiaomi.push.service.XMPushService
+pm disable com.android.providers.downloads/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.miui.fmradio/com.xiaomi.push.service.XMPushService
+pm disable com.twitter.android/com.twitter.android.samsung.single.TwitterWidgetProvider
+pm disable com.xiaomi.market/com.xiaomi.push.service.XMPushService
+pm disable com.xiaomi.market/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.xiaomi.xmsf/com.xiaomi.xmsf.push.service.XMPushService
+pm disable com.xiaomi.xmsf/com.xiaomi.push.service.XMPushService
+pm disable com.xiaomi.xmsf/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.xiaomi.payment/com.xiaomi.push.service.XMPushService
+pm disable com.xiaomi.payment/com.xiaomi.push.service.receivers.PingReceiver
+pm disable com.miui.video/com.xiaomi.push.service.XMPushService
+pm disable com.miui.video/com.miui.video.mipush.MediaPushMessageReceiver

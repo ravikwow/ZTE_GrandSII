@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!--sample-->
+<powermo-setting>
+
+<global>
+    <product value="POWERMOREF"/> <!-- case sensitive -->
+    <acls-package-name value="com.powermo.smartshow.hack" />
+        <!-- when installed, use aclslist, otherwise defaultlist-->
+    <defaultlist value="hack-mode"/> <!-- case sensitive -->
+    <aclslist value="hack-mode" /> <!-- case sensitive -->
+    <split-bar-size value="4" />
+    <split-bar-overlap-size value="16" />
+    <split-bar-panel-size value="150" />
+    <split-bar-color value="0xFF33B5E5" />
+    <floating-ime-enable value="0" />
+    <floating-ime-port-scale  value="0.8" />
+    <floating-ime-land-scale  value="0.6" />
+    <focused-frame-color value="0xFFFFFFFF" />
+    <smallest-input-widget-size value="130" />
+    <!-- if value equals 'com.powermo.smartshow.activity/.idlerDisable'
+         system will not start idler
+    -->
+    <!-- idler activity on normal stack-->
+    <normal-idle-activity value="com.powermo.smartshow.activity/.MiniLauncherActivity" />
+    <!-- idler activity on floating stack-->
+    <floating-idle-activity value="com.powermo.smartshow.activity/.idlerDisable" />
+    <!-- home key configuration, format:  config1:target1|config2:target2,
+         native for local display, tv for tv
+         default: do not remove slipt-screen and float stacks, just show home
+         exit: remove slipt-screen and float stacks and show home
+         exit-ignore-float: remove slipt-screen stacks and show home
+         two-stage-exit: show minilauncher on focused subscreen first time,
+                         if shown, remove slipt-screen and float stacks and show home
+         two-stage-exit-ignore-float: if focused is float, remove slipt-screen stacks and show home
+                         otherwise show minilauncher on focused subscreen first time,
+                         if shown, remove slipt-screen and show home
+    -->
+    <home-key-behavior value="two-stage-exit-ignore-float:native" />
+    <!--
+        auto-keep-size-ratio: if ratio is lower than specified, KEEP_SIZE is used as default.
+    <auto-keep-size-ratio value="0.5" />
+    -->
+    <!--
+        allow-camera-fullscreen: whether camera is shown in full screen
+    -->
+    <allow-camera-fullscreen value="1" />
+    <!-- init stack display mode configuration
+        auto: default value. It will set display mode according to activity's requested orientation.
+            If no orientation request, then the content shown keeps the same as best-fit mode.
+            Else, the content shown keeps the same as keep-size mode.
+        best-fit: Always fill the whole stack bounds.
+        keep-size: Won't fill the whole stack bounds, but scale it down to fit the stack bounds.
+    -->
+    <stack-init-display-mode value="best-fit"/>
+    <stack-dock-paddings value="2,28,2,2" />
+    <!-- if this config is not defined or value is smaller than zero,
+        system will figure out a min-weight
+    -->
+    <float-stack-min-weight value="-1.0f" />
+
+    <!-- imply the count of float stacks can't exceed this value-->
+    <max-float-stack-number value="2" />
+    <!-- animations system will support
+        ANIMATION_TYPE_RESIZE_STACK:0x1
+        ANIMATION_TYPE_REMOVE_STACK:0x2
+    -->
+    <smartshow-animation-level value="0x3" />
+    <!-- app transit adjust
+        1:Enable
+        0:Disable
+    -->
+    <adjust-app-transit value="0" />
+    <!-- float stack alpha value
+        0.0f-1.0f
+    -->
+    <float-stack-alpha value="1.0f" />
+</global>
+
+<smartbar-POWERMOREF>
+    <config-with-fw value="true" />
+    <config-with-shopm value="true" />
+    <style-shopm-bottom-bar-mode value="auto" /> <!-- auto/force-show/force-hide -->
+    <style-shopm-bottom-bar-auto-hide value="true" />
+
+    <style-entry-key value="back" /> <!-- back/menu -->
+
+    <style-mle-nosort value="false"/>
+    <style-cp-nohome value="true" />
+    <style-cp-nomove value="true" />
+    <style-cp-alignment value="edge" /> <!-- center/edge -->
+
+    <style-ml-dock-mode value="corner" /> <!-- corner/middle -->
+
+</smartbar-POWERMOREF>
+
+<help-entry value="com.powermo.smartviewerhelp/.MasterEntryActivity" />
+
+<!-- all apps in the "normal-mode" is white-list. -->
+<name-list name="normal-mode" type="white-list">
+    <item value="com.android.calculator2"/>
+    <item value="com.android.gallery3d"/>
+    <exception value="com.android.gallery3d/com.android.camera.CameraLauncher"/>
+</name-list>
+
+<!-- all apps in the "hack-mode" is black-list. -->
+<name-list name="hack-mode" type="black-list">
+    <item value="com.android.gallery3d/com.android.camera.CameraLauncher"/>
+    <item value="com.android.contacts/.activities.DialtactsActivity"/>
+    <item value="zte.android.flashlight"/>
+	<item value="com.android.contacts"/>
+	<item value="com.android.dialer"/>
+	<item value="zte.com.cn.driverMode"/>
+	<item value="com.android.keyguard"/>
+	<item value="com.zte.lqsoft.launcher"/>
+</name-list>
+
+<!-- all apps in the "keep-size" is white-list. -->
+<name-list name="keep-size" type="white-list">
+</name-list>
+
+<!-- all apps in the "best-fit" is white-list. -->
+<name-list name="best-fit" type="white-list">
+    <item value="com.powermo.smartshow.activity/.MiniLauncherActivity"/>
+</name-list>
+
+<!-- all apps in the "full-screen" is white-list. -->
+<name-list name="full-screen" type="white-list">
+    <item value="com.android.dialer/com.android.incallui.InCallActivity"/>
+    <item value="com.android.packageinstaller"/>
+    <item value="com.android.systemui"/>
+	<item value="com.android.contacts"/>
+	<item value="com.android.dialer"/>
+	<item value="zte.com.cn.driverMode"/>
+	<item value="com.android.keyguard"/>
+</name-list>
+
+<!-- all apps in the "update-focus" is black-list. -->
+<name-list name="update-focus" type="black-list">
+    <item value="com.popcap.pvz2cthdwdj/com.popcap.pvz2cthdwdj.SexyAppActivity" />
+    <item value="com.popcap.pvz2wdj/com.popcap.pvz2wdj.SexyAppActivity" />
+</name-list>
+
+<!-- all apps in the "keep-alive" is white-list. -->
+<name-list name="keep-alive" type="white-list">
+    <item value="com.powermo.smartshow.activity"/>
+    <item value="com.powermo.SmartBar"/>
+</name-list>
+
+<!-- all apps in the "never-scale" is white-list. -->
+<name-list name="never-scale" type="white-list">
+    <item value="com.powermo.smartshow.activity/.MiniLauncherActivity"/>
+</name-list>
+
+</powermo-setting>
+

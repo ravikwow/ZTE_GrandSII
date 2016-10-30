@@ -1,0 +1,221 @@
+
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/userdata", "/data");
+show_progress(0.500000, 0);
+ui_print("Formatting system...");
+unmount("/system");
+format("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "0", "/system");
+ui_print("Installing system files...");
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
+package_extract_dir("system", "/system");
+ui_print("Creating system links...");
+symlink("/data/misc/audio/mbhc.bin", "/system/etc/firmware/wcd9320/wcd9320_mbhc.bin");
+symlink("/data/misc/audio/wcd9320_anc.bin", "/system/etc/firmware/wcd9320/wcd9320_anc.bin");
+symlink("/data/misc/audio/wcd9320_mad_audio.bin", "/system/etc/firmware/wcd9320/wcd9320_mad_audio.bin");
+symlink("../ui/MessageComplete.ogg", "/system/media/audio/notifications/MessageComplete.ogg");
+symlink("../ui/MessageIncoming.ogg", "/system/media/audio/notifications/MessageIncoming.ogg");
+symlink("/data/misc/wifi/WCNSS_qcom_cfg.ini", "/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini");
+symlink("/persist/WCNSS_qcom_wlan_nv.bin", "/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin");
+symlink("/persist/WCNSS_qcom_wlan_nv_murata.bin", "/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_murata.bin");
+symlink("/persist/WCNSS_qcom_wlan_nv_samsung.bin", "/system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_samsung.bin");
+symlink("/system/bin/mksh", "/system/bin/sh");
+symlink("/system/bin/toolbox", "/system/bin/cat", "/system/bin/chcon",
+        "/system/bin/chmod", "/system/bin/chown", "/system/bin/clear",
+        "/system/bin/cmp", "/system/bin/cp", "/system/bin/date",
+        "/system/bin/dd", "/system/bin/df", "/system/bin/dmesg",
+        "/system/bin/du", "/system/bin/getenforce", "/system/bin/getevent",
+        "/system/bin/getprop", "/system/bin/getsebool", "/system/bin/grep",
+        "/system/bin/hd", "/system/bin/id", "/system/bin/ifconfig",
+        "/system/bin/iftop", "/system/bin/insmod", "/system/bin/ioctl",
+        "/system/bin/ionice", "/system/bin/kill", "/system/bin/ln",
+        "/system/bin/load_policy", "/system/bin/log", "/system/bin/ls",
+        "/system/bin/lsmod", "/system/bin/lsof", "/system/bin/md5",
+        "/system/bin/mkdir", "/system/bin/mkswap", "/system/bin/mount",
+        "/system/bin/mv", "/system/bin/nandread", "/system/bin/netstat",
+        "/system/bin/newfs_msdos", "/system/bin/notify", "/system/bin/printenv",
+        "/system/bin/ps", "/system/bin/readlink", "/system/bin/renice",
+        "/system/bin/restorecon", "/system/bin/rm", "/system/bin/rmdir",
+        "/system/bin/rmmod", "/system/bin/route", "/system/bin/runcon",
+        "/system/bin/schedtop", "/system/bin/sendevent",
+        "/system/bin/setconsole", "/system/bin/setenforce",
+        "/system/bin/setprop", "/system/bin/setsebool", "/system/bin/sleep",
+        "/system/bin/smd", "/system/bin/start", "/system/bin/stop",
+        "/system/bin/swapoff", "/system/bin/swapon", "/system/bin/sync",
+        "/system/bin/top", "/system/bin/touch", "/system/bin/umount",
+        "/system/bin/uptime", "/system/bin/vmstat", "/system/bin/watchprops",
+        "/system/bin/wipe");
+symlink("/system/fonts/Roboto-Bold.ttf", "/system/fonts/DroidSans-Bold.ttf");
+symlink("/system/fonts/Roboto-Regular.ttf", "/system/fonts/DroidSans.ttf");
+symlink("/system/lib/libGLESv2.so", "/system/lib/libGLESv3.so");
+symlink("/system/lib/modules/pronto/pronto_wlan.ko", "/system/lib/modules/wlan.ko");
+symlink("/system/xbin/busybox", "/system/xbin/[", "/system/xbin/[[",
+        "/system/xbin/acpid", "/system/xbin/adjtimex", "/system/xbin/arp",
+        "/system/xbin/arping", "/system/xbin/ash", "/system/xbin/awk",
+        "/system/xbin/base64", "/system/xbin/basename", "/system/xbin/beep",
+        "/system/xbin/blkid", "/system/xbin/blockdev", "/system/xbin/brctl",
+        "/system/xbin/bunzip2", "/system/xbin/bzcat", "/system/xbin/bzip2",
+        "/system/xbin/cal", "/system/xbin/cat", "/system/xbin/catv",
+        "/system/xbin/chat", "/system/xbin/chattr", "/system/xbin/chgrp",
+        "/system/xbin/chmod", "/system/xbin/chown", "/system/xbin/chpst",
+        "/system/xbin/chroot", "/system/xbin/chrt", "/system/xbin/chvt",
+        "/system/xbin/cksum", "/system/xbin/clear", "/system/xbin/cmp",
+        "/system/xbin/comm", "/system/xbin/conspy", "/system/xbin/cpio",
+        "/system/xbin/crond", "/system/xbin/crontab", "/system/xbin/cut",
+        "/system/xbin/date", "/system/xbin/dc", "/system/xbin/dd",
+        "/system/xbin/deallocvt", "/system/xbin/depmod", "/system/xbin/devmem",
+        "/system/xbin/df", "/system/xbin/diff", "/system/xbin/dirname",
+        "/system/xbin/dmesg", "/system/xbin/dnsd", "/system/xbin/dnsdomainname",
+        "/system/xbin/dos2unix", "/system/xbin/du", "/system/xbin/dumpkmap",
+        "/system/xbin/echo", "/system/xbin/ed", "/system/xbin/egrep",
+        "/system/xbin/env", "/system/xbin/envdir", "/system/xbin/envuidgid",
+        "/system/xbin/ether-wake", "/system/xbin/expand", "/system/xbin/expr",
+        "/system/xbin/fakeidentd", "/system/xbin/false", "/system/xbin/fbset",
+        "/system/xbin/fbsplash", "/system/xbin/fdflush",
+        "/system/xbin/fdformat", "/system/xbin/fdisk", "/system/xbin/fgconsole",
+        "/system/xbin/fgrep", "/system/xbin/find", "/system/xbin/findfs",
+        "/system/xbin/flock", "/system/xbin/fold", "/system/xbin/free",
+        "/system/xbin/freeramdisk", "/system/xbin/fsck",
+        "/system/xbin/fsck.minix", "/system/xbin/fstrim", "/system/xbin/fsync",
+        "/system/xbin/ftpd", "/system/xbin/ftpget", "/system/xbin/ftpput",
+        "/system/xbin/fuser", "/system/xbin/getopt", "/system/xbin/grep",
+        "/system/xbin/groups", "/system/xbin/gunzip", "/system/xbin/gzip",
+        "/system/xbin/hd", "/system/xbin/hdparm", "/system/xbin/head",
+        "/system/xbin/hexdump", "/system/xbin/hostname", "/system/xbin/httpd",
+        "/system/xbin/hush", "/system/xbin/hwclock", "/system/xbin/id",
+        "/system/xbin/ifconfig", "/system/xbin/ifdown", "/system/xbin/ifup",
+        "/system/xbin/inetd", "/system/xbin/insmod", "/system/xbin/install",
+        "/system/xbin/ionice", "/system/xbin/iostat", "/system/xbin/ip",
+        "/system/xbin/ipaddr", "/system/xbin/ipcalc", "/system/xbin/iproute",
+        "/system/xbin/iprule", "/system/xbin/iptunnel", "/system/xbin/kbd_mode",
+        "/system/xbin/kill", "/system/xbin/killall", "/system/xbin/killall5",
+        "/system/xbin/less", "/system/xbin/ln", "/system/xbin/loadkmap",
+        "/system/xbin/losetup", "/system/xbin/lpd", "/system/xbin/lpq",
+        "/system/xbin/lpr", "/system/xbin/ls", "/system/xbin/lsattr",
+        "/system/xbin/lsmod", "/system/xbin/lsof", "/system/xbin/lspci",
+        "/system/xbin/lsusb", "/system/xbin/lzcat", "/system/xbin/lzma",
+        "/system/xbin/lzop", "/system/xbin/lzopcat", "/system/xbin/makedevs",
+        "/system/xbin/man", "/system/xbin/md5sum", "/system/xbin/microcom",
+        "/system/xbin/mkdir", "/system/xbin/mkdosfs", "/system/xbin/mke2fs",
+        "/system/xbin/mkfifo", "/system/xbin/mkfs.ext2",
+        "/system/xbin/mkfs.minix", "/system/xbin/mkfs.vfat",
+        "/system/xbin/mknod", "/system/xbin/mkswap", "/system/xbin/modinfo",
+        "/system/xbin/modprobe", "/system/xbin/more", "/system/xbin/mount",
+        "/system/xbin/mountpoint", "/system/xbin/mpstat", "/system/xbin/mv",
+        "/system/xbin/nameif", "/system/xbin/nanddump",
+        "/system/xbin/nandwrite", "/system/xbin/nbd-client", "/system/xbin/nc",
+        "/system/xbin/netstat", "/system/xbin/nice", "/system/xbin/nmeter",
+        "/system/xbin/nohup", "/system/xbin/nslookup", "/system/xbin/ntpd",
+        "/system/xbin/od", "/system/xbin/openvt", "/system/xbin/patch",
+        "/system/xbin/pgrep", "/system/xbin/pidof", "/system/xbin/ping",
+        "/system/xbin/ping6", "/system/xbin/pipe_progress",
+        "/system/xbin/pivot_root", "/system/xbin/pkill", "/system/xbin/pmap",
+        "/system/xbin/powertop", "/system/xbin/printenv", "/system/xbin/printf",
+        "/system/xbin/ps", "/system/xbin/pscan", "/system/xbin/pstree",
+        "/system/xbin/pwd", "/system/xbin/pwdx", "/system/xbin/raidautorun",
+        "/system/xbin/rdate", "/system/xbin/rdev", "/system/xbin/readahead",
+        "/system/xbin/readlink", "/system/xbin/readprofile",
+        "/system/xbin/realpath", "/system/xbin/renice", "/system/xbin/reset",
+        "/system/xbin/resize", "/system/xbin/rev", "/system/xbin/rm",
+        "/system/xbin/rmdir", "/system/xbin/rmmod", "/system/xbin/route",
+        "/system/xbin/rpm", "/system/xbin/rpm2cpio", "/system/xbin/rtcwake",
+        "/system/xbin/run-parts", "/system/xbin/runsv", "/system/xbin/runsvdir",
+        "/system/xbin/rx", "/system/xbin/script", "/system/xbin/scriptreplay",
+        "/system/xbin/sed", "/system/xbin/seq", "/system/xbin/setconsole",
+        "/system/xbin/setkeycodes", "/system/xbin/setlogcons",
+        "/system/xbin/setserial", "/system/xbin/setsid",
+        "/system/xbin/setuidgid", "/system/xbin/sha1sum",
+        "/system/xbin/sha256sum", "/system/xbin/sha3sum",
+        "/system/xbin/sha512sum", "/system/xbin/showkey",
+        "/system/xbin/slattach", "/system/xbin/sleep", "/system/xbin/smemcap",
+        "/system/xbin/softlimit", "/system/xbin/sort", "/system/xbin/split",
+        "/system/xbin/start-stop-daemon", "/system/xbin/stat",
+        "/system/xbin/strings", "/system/xbin/stty", "/system/xbin/sum",
+        "/system/xbin/sv", "/system/xbin/svlogd", "/system/xbin/swapoff",
+        "/system/xbin/swapon", "/system/xbin/switch_root", "/system/xbin/sync",
+        "/system/xbin/sysctl", "/system/xbin/tac", "/system/xbin/tail",
+        "/system/xbin/tcpsvd", "/system/xbin/tee", "/system/xbin/telnet",
+        "/system/xbin/telnetd", "/system/xbin/test", "/system/xbin/tftp",
+        "/system/xbin/tftpd", "/system/xbin/time", "/system/xbin/timeout",
+        "/system/xbin/top", "/system/xbin/touch", "/system/xbin/tr",
+        "/system/xbin/traceroute6", "/system/xbin/true", "/system/xbin/tty",
+        "/system/xbin/ttysize", "/system/xbin/tunctl", "/system/xbin/ubiattach",
+        "/system/xbin/ubidetach", "/system/xbin/ubimkvol",
+        "/system/xbin/ubirmvol", "/system/xbin/ubirsvol",
+        "/system/xbin/ubiupdatevol", "/system/xbin/udpsvd",
+        "/system/xbin/umount", "/system/xbin/uname", "/system/xbin/unexpand",
+        "/system/xbin/uniq", "/system/xbin/unix2dos", "/system/xbin/unlzma",
+        "/system/xbin/unlzop", "/system/xbin/unxz", "/system/xbin/unzip",
+        "/system/xbin/uptime", "/system/xbin/usleep", "/system/xbin/uudecode",
+        "/system/xbin/uuencode", "/system/xbin/vconfig", "/system/xbin/vi",
+        "/system/xbin/volname", "/system/xbin/watch", "/system/xbin/watchdog",
+        "/system/xbin/wc", "/system/xbin/wget", "/system/xbin/which",
+        "/system/xbin/whoami", "/system/xbin/whois", "/system/xbin/xargs",
+        "/system/xbin/xz", "/system/xbin/xzcat", "/system/xbin/yes",
+        "/system/xbin/zcat",
+        "/system/xbin/zcip");
+ui_print("Set permission...");
+set_perm_recursive(0, 0, 0755, 0644, "/system");
+set_perm_recursive(0, 2000, 0755, 0755, "/system/bin");
+set_perm(0, 0, 0644, "/system/bin/mcd");
+set_perm(0, 0, 0644, "/system/bin/mdnsdfuck");
+set_perm(0, 3003, 02750, "/system/bin/netcfg");
+set_perm(0, 0, 0755, "/system/bin/ping");
+set_perm(0, 2000, 0750, "/system/bin/run-as");
+set_perm(1014, 2000, 0550, "/system/etc/dhcpcd/dhcpcd-run-hooks");
+set_perm_recursive(0, 0, 0755, 0555, "/system/etc/ppp");
+set_perm(0, 0, 0777, "/system/juelian/screenshot.ogg");
+set_perm(0, 2000, 0755, "/system/vendor");
+set_perm(0, 2000, 0755, "/system/vendor/app");
+set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor/etc");
+set_perm(0, 0, 0644, "/system/vendor/etc/audio_effects.conf");
+set_perm(0, 2000, 0755, "/system/vendor/lib");
+set_perm_recursive(0, 2000, 0755, 0644, "/system/vendor/lib/drm");
+set_perm(0, 0, 0644, "/system/vendor/lib/drm/libdrmprplugin.so");
+set_perm(0, 2000, 0755, "/system/vendor/lib/egl");
+set_perm(0, 2000, 0755, "/system/vendor/lib/hw");
+set_perm(0, 2000, 0755, "/system/vendor/lib/rfsa");
+set_perm(0, 2000, 0755, "/system/vendor/lib/rfsa/adsp");
+set_perm_recursive(0, 2000, 0755, 0755, "/system/xbin");
+set_perm(0, 0, 06755, "/system/xbin/busybox");
+set_perm(0, 0, 0644, "/system/xbin/miuioneshots");
+
+
+ui_print("Update Boot image...");
+set_metadata("/system/vendor", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/app", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata_recursive("/system/vendor/etc", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/etc/audio_effects.conf", "uid", 0, "gid", 0, "mode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/lib", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata_recursive("/system/vendor/lib/drm", "uid", 0, "gid", 2000, "dmode", 0755, "fmode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/lib/drm/libdrmprplugin.so", "uid", 0, "gid", 0, "mode", 0644, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/lib/egl", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/lib/hw", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/lib/rfsa", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+set_metadata("/system/vendor/lib/rfsa/adsp", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+show_progress(0.200000, 0);
+show_progress(0.200000, 10);
+package_extract_file("boot.img", "/dev/block/platform/msm_sdcc.1/by-name/boot");
+show_progress(0.100000, 0);
+ui_print("Writing modem image...");
+package_extract_file("NON-HLOS.bin", "/dev/block/platform/msm_sdcc.1/by-name/modem");
+ui_print("Writing sbl1 image...");
+package_extract_file("sbl1.mbn", "/dev/block/platform/msm_sdcc.1/by-name/sbl1");
+ui_print("Writing aboot image...");
+package_extract_file("emmc_appsboot.mbn", "/dev/block/platform/msm_sdcc.1/by-name/aboot");
+ui_print("Writing rpm image...");
+package_extract_file("rpm.mbn", "/dev/block/platform/msm_sdcc.1/by-name/rpm");
+ui_print("Writing tz image...");
+package_extract_file("tz.mbn", "/dev/block/platform/msm_sdcc.1/by-name/tz");
+package_extract_dir("data", "/data");
+package_extract_file("META-INF/com/miui/relink", "/tmp/relink");
+set_perm(0, 0, 0555, "/tmp/relink");
+run_program("/tmp/relink");
+delete("/tmp/relink");
+set_perm_recursive(1000, 1000, 0755, 0644, "/data/miui");
+set_metadata("/system/bin/debuggerd", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:debuggerd_exec:s0");
+set_metadata("/system/bin/debuggerd_vendor", "uid", 0, "gid", 2000, "mode", 0755, "capabilities", 0x0, "selabel", "u:object_r:debuggerd_exec:s0");
+set_metadata("/system/xbin/su", "uid", 0, "gid", 2000, "mode", 06755, "capabilities", 0x0, "selabel", "u:object_r:su_exec:s0");
+set_metadata("/system/xbin/shelld", "uid", 0, "gid", 1000, "mode", 06754, "capabilities", 0x0, "selabel", "u:object_r:system_file:s0");
+delete_recursive("/data/miui/preinstall_apps");
+delete_recursive("/data/miui/cust/preinstall_apps");
+unmount("/data");
+unmount("/system");

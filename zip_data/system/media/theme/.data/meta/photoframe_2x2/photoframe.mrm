@@ -1,0 +1,36 @@
+{
+  "localId": "photoframe",
+  "onlineId": null,
+  "productId": null,
+  "downloadPath": "/system/media/theme/gadget/photoframe/photoframe_2x2.mtz",
+  "metaPath": "/system/media/theme/.data/meta/photoframe_2x2/photoframe.mrm",
+  "contentPath": "/system/media/theme/.data/content/photoframe_2x2/photoframe.mrc",
+  "hash": "b9fbaf02711fd7a0bf90d525f0e52dbf5c9af5ed",
+  "size": 52338,
+  "updatedTime": 0,
+  "platform": 2,
+  "title": "По умолчанию",
+  "description": null,
+  "author": null,
+  "designer": null,
+  "version": "1.2",
+  "downloadCount": null,
+  "buildInThumbnails": [
+    "/system/media/theme/.data/preview/photoframe_2x2/photoframe/preview_photoframe_0.png"
+  ],
+  "buildInPreviews": [
+    "/system/media/theme/.data/preview/photoframe_2x2/photoframe/preview_photoframe_0.png"
+  ],
+  "titles": {
+    "ru_RU": "По умолчанию 2x2",
+    "uk_UA": "За замовчанням 2x2",
+    "en_US": "Default 2x2",
+    "zh_CN": "默认2x2",
+    "zh_TW": "預設2x2"
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [],
+  "subResources": [],
+  "extraMeta": {}
+}

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<sysControlPermission>
+	<policy name="unApproved">
+	    <permission name="android.permission.SEND_SMS" />
+	    <permission name="android.permission.RECEIVE_SMS" />	    
+	    <permission name="android.permission.RECEIVE_MMS" />		   
+	    <permission name="android.permission.RECEIVE_WAP_PUSH" />	 	    	    	     
+	    <permission name="android.permission.CALL_PHONE" />	     	    
+	    <permission name="android.permission.WRITE_CONTACTS" />	    
+        <permission name="android.permission.READ_CONTACTS" />	          
+	    <permission name="android.permission.READ_SMS" />	    
+        <permission name="android.permission.WRITE_SMS" />	                      	      	         	   	   	
+        <permission name="android.permission.READ_PHONE_STATE" />          	
+        <permission name="android.permission.ACCESS_FINE_LOCATION" />   
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" />         
+        <permission name="android.permission.READ_CALENDAR" />   
+        <permission name="android.permission.WRITE_CALENDAR" />          
+        <permission name="android.permission.READ_CALL_LOG" />   
+        <permission name="android.permission.WRITE_CALL_LOG" />      
+        
+        <permission name="android.permission.RECORD_AUDIO" />     
+        <permission name="android.permission.BLUETOOTH_ADMIN" />   
+        <permission name="android.permission.CHANGE_WIFI_STATE" />      
+        <permission name="android.permission.CHANGE_NETWORK_STATE" />
+        <permission name="android.permission.CAMERA" />
+	<permission name="android.permission.ZTE_SEND_MMS" />        
+	</policy>
+	
+	<policy name="ManufaturerApproved">
+	</policy>		
+</sysControlPermission>

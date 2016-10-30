@@ -1,0 +1,52 @@
+#!/system/bin/sh
+
+#
+# Copyright (C) 2012 Li Xingyuan <li.xingyuan@zte.com.cn>
+#
+
+MAXLOGFILE=20
+LOGDIR=/data/local/logs
+LASTKMSG=/proc/last_kmsg
+RAMTRACE=/sys/kernel/debug/ram_trace
+
+LOGI() {
+	/system/bin/log -p i -t KCRASHLOG "${1}"
+	#echo "${1}"
+}
+
+umask 000
+
+if [ ! -f "${LASTKMSG}" ]; then
+	LOGI "Crash file ${LASTKMSG} is not exist!"
+	exit 0
+fi
+
+INDEX=`ls ${LOGDIR}/last_kmsg_* | busybox cut -d_ -f3 | busybox sort -g | busybox tail -1`
+LOGI "current file index: ${INDEX}"
+if [ -z "${INDEX}" ]; then
+	INDEX=0
+else
+	COUNT=`ls ${LOGDIR}/last_kmsg_* | busybox wc -l`
+	#LOGI "Number of log files: ${COUNT}"
+	while [ ${COUNT} -ge ${MAXLOGFILE} ]; do
+		OBSINDEX=`ls ${LOGDIR}/last_kmsg_* | busybox cut -d_ -f3 | busybox sort -g | busybox head -1`
+		OBSLOG=`ls ${LOGDIR}/last_kmsg_${OBSINDEX}_* | busybox head -1`
+		LOGI "File ${OBSLOG} is out of date, removed!"
+		busybox rm -rf ${LOGDIR}/last_kmsg_${OBSINDEX}_*
+		COUNT=`ls ${LOGDIR}/last_kmsg_* | busybox wc -l`
+		#LOGI "Number of log files: ${COUNT}"
+	done
+	let "INDEX += 1"
+fi
+
+TIMESTAMP=`busybox date +%Y-%m-%d_%H-%M-%S`
+CRASHLOG=$LOGDIR/last_kmsg_${INDEX}_${TIMESTAMP}
+
+cat ${LASTKMSG} > ${CRASHLOG}
+LOGI "Crash log write to ${CRASHLOG}"
+
+if [ -f "${RAMTRACE}" ]; then 
+	busybox rm -rf ${LOGDIR}/ram_trace_*
+	cat ${RAMTRACE} > ${LOGDIR}/ram_trace_${TIMESTAMP}
+	LOGI "Trace log write to ${LOGDIR}/ram_trace_${TIMESTAMP}"
+fi

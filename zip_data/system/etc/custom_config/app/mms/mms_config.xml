@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<mms_config>
+    <!-- Flag indicating whether MMS should be enabled -->
+    <settings 
+		pref_key_auto_delete="no" 
+		pref_key_sms_delete_limit="500"
+		pref_key_mms_delete_limit="50"
+		pref_key_sms_delivery_reports = "no"
+		pref_key_sms_expiry = "245"
+		pref_key_mms_expiry = "691200"
+		pref_key_sms_priority = "0"
+		pref_key_mms_delivery_reports = "no"
+		pref_key_mms_read_reports = "no"
+		pref_key_mms_auto_retrieval = "yes"
+		pref_key_mms_retrieval_during_roaming = "no"
+		pref_key_mms_restricted_mode = "0"
+		pref_key_enable_notifications = "yes"
+		pref_key_edit_signature = ""
+		pref_key_enable_signature = "no"
+		pref_key_ringtone = "content://settings/system/notification_sound"
+		pref_key_max_message_size = "307200"
+		pref_key_ua_agent = "Android-Mms/2.0"
+		pref_key_ua_prof_url = "http://www.zte.com.cn/mobile/uaprof/ZTE S291.xml"
+		pref_key_sms_to_mms_text_thread = "7"
+		pref_key_enable_send_empty_message="1"
+		pref_key_enable_wap_push_receiving="yes"
+		pref_key_enable_sms_expiry = "1"
+		pref_key_enable_boxmode="yes"
+		pref_key_enable_preview_recipients="yes"
+		pref_key_operator_name="Generic"
+		pref_key_enable_zlocation="no"
+		pref_key_send_long_message_prompt="1"
+		pref_key_show_unread_count_in_each_conv = "1"
+		/> 
+</mms_config>

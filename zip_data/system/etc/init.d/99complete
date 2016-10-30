@@ -1,0 +1,4 @@
+#!/system/bin/sh
+sync;
+setprop kdevlab.sysinit.done 1
+setprop kdevlab.feature.dsb 1
