@@ -8,6 +8,7 @@ fi
 if [ -f "update.zip" ]; then
     rm update.zip
 fi
+./build.sh
 cd zip_data
 zip -r ../update.zip ./*
 cd ../build
