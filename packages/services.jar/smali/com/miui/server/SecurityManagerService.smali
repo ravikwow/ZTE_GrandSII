@@ -454,7 +454,7 @@
     .line 228
     const-string v1, "android"
 
-    const-string v2, "com.android.updater"
+    const-string v2, "com.android.systemui"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/pm/PackageManager;->checkSignatures(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -465,7 +465,7 @@
     .line 229
     new-instance v1, Ljava/lang/RuntimeException;
 
-    const-string v2, "System error : cannot find system app : com.android.updater"
+    const-string v2, "System error : cannot find system app : com.android.systemui"
 
     invoke-direct {v1, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
