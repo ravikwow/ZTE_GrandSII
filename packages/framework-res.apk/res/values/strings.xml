@@ -80,10 +80,10 @@
     <string name="widget_default_package_name" />
     <string name="widget_default_class_name" />
     <string name="default_wallpaper_component">@null</string>
-    <string name="config_networkLocationProviderPackageName">com.amap.android.location</string>
+    <string name="config_networkLocationProviderPackageName">com.qualcomm.location</string>
     <string name="config_fusedLocationProviderPackageName">com.qualcomm.location</string>
-    <string name="config_geocoderProviderPackageName">@null</string>
-    <string name="config_geofenceProviderPackageName">@null</string>
+    <string name="config_geocoderProviderPackageName">com.qualcomm.location</string>
+    <string name="config_geofenceProviderPackageName">com.qualcomm.location</string>
     <string name="config_geofenceServicesProvider">com.qualcomm.location</string>
     <string name="config_comboNetworkLocationProvider">com.qualcomm.location</string>
     <string name="config_datause_iface">rmnet0</string>

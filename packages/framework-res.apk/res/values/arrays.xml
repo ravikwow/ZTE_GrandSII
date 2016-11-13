@@ -129,12 +129,18 @@
     </array>
     <array name="preloaded_color_state_lists" />
     <string-array name="special_locale_codes">
+        <item>ar_EG</item>
         <item>zh_CN</item>
         <item>zh_TW</item>
+        <item>ru_RU</item>
+        <item>uk_UA</item>
     </string-array>
     <string-array name="special_locale_names">
+        <item>العربية</item>
         <item>中文 (简体)</item>
         <item>中文 (繁體)</item>
+        <item>Русский (Россия)</item>
+        <item>Український (Україна)</item>
     </string-array>
     <string-array name="config_statusBarIcons">
         <item>headset</item>
@@ -145,7 +151,6 @@
         <item>quiet</item>
         <item>gps</item>
         <item>missed_call</item>
-        <item>managed_profile</item>
         <item>ime</item>
         <item>sync_failing</item>
         <item>sync_active</item>
@@ -281,15 +286,15 @@
         <item>7000</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>2</item>
-        <item>15</item>
+        <item>20</item>
         <item>35</item>
-        <item>65</item>
-        <item>100</item>
-        <item>145</item>
-        <item>165</item>
-        <item>195</item>
-        <item>235</item>
+        <item>60</item>
+        <item>75</item>
+        <item>115</item>
+        <item>160</item>
+        <item>180</item>
+        <item>200</item>
+        <item>240</item>
         <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessButtonBacklightValues">
@@ -317,9 +322,10 @@
         <item>0</item>
     </integer-array>
     <string-array name="config_locationProviderPackageNames">
+        <item>org.microg.nlp</item>
+        <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
-        <item>com.baidu.map.location</item>
-        <item>com.amap.android.location</item>
+        <item>com.qualcomm.location</item>
     </string-array>
     <array name="config_twoDigitNumberPattern" />
     <array name="config_sms_enabled_single_shift_tables" />

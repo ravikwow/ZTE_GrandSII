@@ -4833,15 +4833,6 @@
     <public type="string" name="lock_to_app_toast_accessible" id="0x0104072c" />
     <public type="string" name="lock_to_app_description" id="0x0104072f" />
     <public type="string" name="lock_to_app_description_accessible" id="0x01040730" />
-    <public type="string" name="quick_contacts_not_available" id="0x010406ee" />
-    <public type="string" name="storage_uicc" id="0x01040717" />
-    <public type="string" name="permission_remember_choice" id="0x0104073e" />
-    <public type="string" name="reboot_progress" id="0x0104073f" />
-    <public type="string" name="keyguard_password_pin_failed" id="0x0104066e" />
-    <public type="string" name="keyguard_password_puk_failed" id="0x0104066f" />
-    <public type="string" name="tethered_notification_no_device_message" id="0x01040714" />
-    <public type="string" name="tethered_notification_one_device_message" id="0x01040715" />
-    <public type="string" name="tethered_notification_multi_device_message" id="0x01040716" />
     <public type="string" name="durationDays" id="0x010406a8" />
     <public type="string" name="durationDayHours" id="0x010406a9" />
     <public type="string" name="durationDayHour" id="0x010406aa" />
@@ -4860,221 +4851,6 @@
     <public type="string" name="global_action_lockdown" id="0x010406b7" />
     <public type="string" name="user_owner_label" id="0x010406b8" />
     <public type="string" name="managed_profile_label" id="0x010406b9" />
-    <public type="string" name="permlab_bodySensors" id="0x010406cc" />
-    <public type="string" name="permdesc_bodySensors" id="0x010406cd" />
-    <public type="string" name="permlab_sim_communication" id="0x010406d2" />
-    <public type="string" name="permdesc_sim_communication" id="0x010406d3" />
-    <public type="string" name="permlab_bind_incall_service" id="0x010406dc" />
-    <public type="string" name="permdesc_bind_incall_service" id="0x010406dd" />
-    <public type="string" name="permlab_bind_connection_service" id="0x010406de" />
-    <public type="string" name="permdesc_bind_connection_service" id="0x010406df" />
-    <public type="string" name="permlab_control_incall_experience" id="0x010406e0" />
-    <public type="string" name="permdesc_control_incall_experience" id="0x010406e1" />
-    <public type="string" name="permlab_bindConditionProviderService" id="0x010406e2" />
-    <public type="string" name="permdesc_bindConditionProviderService" id="0x010406e3" />
-    <public type="string" name="permlab_bindDreamService" id="0x010406e4" />
-    <public type="string" name="permdesc_bindDreamService" id="0x010406e5" />
-    <public type="string" name="permlab_setInputCalibration" id="0x010406e6" />
-    <public type="string" name="permdesc_setInputCalibration" id="0x010406e7" />
-    <public type="string" name="permlab_accessDrmCertificates" id="0x010406e8" />
-    <public type="string" name="permdesc_accessDrmCertificates" id="0x010406e9" />
-    <public type="string" name="permlab_handoverStatus" id="0x010406ea" />
-    <public type="string" name="permdesc_handoverStatus" id="0x010406eb" />
-    <public type="string" name="permlab_removeDrmCertificates" id="0x010406ec" />
-    <public type="string" name="permdesc_removeDrmCertificates" id="0x010406ed" />
-    <public type="string" name="lockscreen_transport_rew_description" id="0x010406ef" />
-    <public type="string" name="lockscreen_transport_ffw_description" id="0x010406f0" />
-    <public type="string" name="low_internal_storage_view_text_no_boot" id="0x010406f5" />
-    <public type="string" name="whichApplicationNamed" id="0x010406f6" />
-    <public type="string" name="whichViewApplication" id="0x010406f7" />
-    <public type="string" name="whichViewApplicationNamed" id="0x010406f8" />
-    <public type="string" name="whichEditApplication" id="0x010406f9" />
-    <public type="string" name="whichEditApplicationNamed" id="0x010406fa" />
-    <public type="string" name="whichSendApplication" id="0x010406fb" />
-    <public type="string" name="whichSendApplicationNamed" id="0x010406fc" />
-    <public type="string" name="whichHomeApplicationNamed" id="0x010406fd" />
-    <public type="string" name="use_a_different_app" id="0x010406fe" />
-    <public type="string" name="android_upgrading_fstrim" id="0x010406ff" />
-    <public type="string" name="usb_charging_notification_title" id="0x01040700" />
-    <public type="string" name="show_ime" id="0x01040702" />
-    <public type="string" name="permlab_readInstallSessions" id="0x0104070f" />
-    <public type="string" name="permdesc_readInstallSessions" id="0x01040710" />
-    <public type="string" name="forward_intent_to_owner" id="0x01040711" />
-    <public type="string" name="forward_intent_to_work" id="0x01040712" />
-    <public type="string" name="condition_provider_service_binding_label" id="0x01040713" />
-    <public type="string" name="activity_resolver_work_profiles_support" id="0x01040718" />
-    <public type="string" name="user_switching_message" id="0x01040719" />
-    <public type="string" name="error_message_change_not_allowed" id="0x0104071a" />
-    <public type="string" name="done_label" id="0x0104071b" />
-    <public type="string" name="hour_picker_description" id="0x0104071c" />
-    <public type="string" name="minute_picker_description" id="0x0104071d" />
-    <public type="string" name="select_hours" id="0x0104071e" />
-    <public type="string" name="select_minutes" id="0x0104071f" />
-    <public type="string" name="select_day" id="0x01040722" />
-    <public type="string" name="select_year" id="0x01040723" />
-    <public type="string" name="deleted_key" id="0x01040725" />
-    <public type="string" name="managed_profile_label_badge" id="0x01040726" />
-    <public type="string" name="lock_to_app_toast_locked" id="0x0104072d" />
-    <public type="string" name="lock_to_app_start" id="0x01040733" />
-    <public type="string" name="lock_to_app_exit" id="0x01040734" />
-    <public type="string" name="lock_to_app_unlock_pin" id="0x01040735" />
-    <public type="string" name="lock_to_app_unlock_pattern" id="0x01040736" />
-    <public type="string" name="lock_to_app_unlock_password" id="0x01040737" />
-    <public type="string" name="battery_saver_description" id="0x01040738" />
-    <public type="string" name="zen_mode_forever" id="0x0104073a" />
-    <public type="string" name="China_Mobile" id="0x0104073b" />
-    <public type="string" name="China_Unicom" id="0x0104073c" />
-    <public type="string" name="China_Telecom" id="0x0104073d" />
-    <public type="string" name="durationMinute" id="0x01040740" />
-    <public type="string" name="peerTtyModeFull" id="0x01040741" />
-    <public type="string" name="peerTtyModeHco" id="0x01040742" />
-    <public type="string" name="peerTtyModeVco" id="0x01040743" />
-    <public type="string" name="peerTtyModeOff" id="0x01040744" />
-    <public type="string" name="wfcRegErrorTitle" id="0x01040745" />
-    <public type="string" name="wfcSpnFormat" id="0x01040746" />
-    <public type="string" name="wfcDataSpnFormat" id="0x01040747" />
-    <public type="string" name="wifi_calling_off_summary" id="0x01040748" />
-    <public type="string" name="wfc_mode_wifi_preferred_summary" id="0x01040749" />
-    <public type="string" name="wfc_mode_cellular_preferred_summary" id="0x0104074a" />
-    <public type="string" name="wfc_mode_wifi_only_summary" id="0x0104074b" />
-    <public type="string" name="ssl_ca_cert_noti_by_administrator" id="0x0104074c" />
-    <public type="string" name="work_profile_deleted" id="0x0104074d" />
-    <public type="string" name="work_profile_deleted_description" id="0x0104074e" />
-    <public type="string" name="work_profile_deleted_details" id="0x0104074f" />
-    <public type="string" name="work_profile_deleted_description_dpm_wipe" id="0x01040750" />
-    <public type="string" name="factory_reset_warning" id="0x01040751" />
-    <public type="string" name="factory_reset_message" id="0x01040752" />
-    <public type="string" name="reboot_to_update_title" id="0x01040753" />
-    <public type="string" name="reboot_to_update_prepare" id="0x01040754" />
-    <public type="string" name="reboot_to_update_package" id="0x01040755" />
-    <public type="string" name="reboot_to_update_reboot" id="0x01040756" />
-    <public type="string" name="reboot_to_reset_title" id="0x01040757" />
-    <public type="string" name="reboot_to_reset_message" id="0x01040758" />
-    <public type="string" name="global_action_assist" id="0x01040759" />
-    <public type="string" name="global_action_voice_assist" id="0x0104075a" />
-    <public type="string" name="permgrouplab_contacts" id="0x0104075b" />
-    <public type="string" name="permgroupdesc_contacts" id="0x0104075c" />
-    <public type="string" name="permgrouplab_sms" id="0x0104075d" />
-    <public type="string" name="permgroupdesc_sms" id="0x0104075e" />
-    <public type="string" name="permgrouplab_phone" id="0x0104075f" />
-    <public type="string" name="permgroupdesc_phone" id="0x01040760" />
-    <public type="string" name="permgrouplab_sensors" id="0x01040761" />
-    <public type="string" name="permgroupdesc_sensors" id="0x01040762" />
-    <public type="string" name="permlab_manageProfileAndDeviceOwners" id="0x01040763" />
-    <public type="string" name="permdesc_manageProfileAndDeviceOwners" id="0x01040764" />
-    <public type="string" name="permlab_accessImsCallService" id="0x01040765" />
-    <public type="string" name="permdesc_accessImsCallService" id="0x01040766" />
-    <public type="string" name="permlab_manageFingerprint" id="0x01040767" />
-    <public type="string" name="permdesc_manageFingerprint" id="0x01040768" />
-    <public type="string" name="permlab_useFingerprint" id="0x01040769" />
-    <public type="string" name="permdesc_useFingerprint" id="0x0104076a" />
-    <public type="string" name="fingerprint_acquired_partial" id="0x0104076b" />
-    <public type="string" name="fingerprint_acquired_insufficient" id="0x0104076c" />
-    <public type="string" name="fingerprint_acquired_imager_dirty" id="0x0104076d" />
-    <public type="string" name="fingerprint_acquired_too_fast" id="0x0104076e" />
-    <public type="string" name="fingerprint_acquired_too_slow" id="0x0104076f" />
-    <public type="string" name="fingerprint_error_hw_not_available" id="0x01040770" />
-    <public type="string" name="fingerprint_error_no_space" id="0x01040771" />
-    <public type="string" name="fingerprint_error_timeout" id="0x01040772" />
-    <public type="string" name="fingerprint_error_canceled" id="0x01040773" />
-    <public type="string" name="fingerprint_error_lockout" id="0x01040774" />
-    <public type="string" name="fingerprint_error_unable_to_process" id="0x01040775" />
-    <public type="string" name="fingerprint_name_template" id="0x01040776" />
-    <public type="string" name="fingerprint_icon_content_description" id="0x01040777" />
-    <public type="string" name="permlab_register_sim_subscription" id="0x01040778" />
-    <public type="string" name="permdesc_register_sim_subscription" id="0x01040779" />
-    <public type="string" name="permlab_register_call_provider" id="0x0104077a" />
-    <public type="string" name="permdesc_register_call_provider" id="0x0104077b" />
-    <public type="string" name="permlab_connection_manager" id="0x0104077c" />
-    <public type="string" name="permdesc_connection_manager" id="0x0104077d" />
-    <public type="string" name="permlab_bindCarrierMessagingService" id="0x0104077e" />
-    <public type="string" name="permdesc_bindCarrierMessagingService" id="0x0104077f" />
-    <public type="string" name="permlab_bindCarrierServices" id="0x01040780" />
-    <public type="string" name="permdesc_bindCarrierServices" id="0x01040781" />
-    <public type="string" name="permlab_access_notification_policy" id="0x01040782" />
-    <public type="string" name="permdesc_access_notification_policy" id="0x01040783" />
-    <public type="string" name="policydesc_watchLogin_secondaryUser" id="0x01040784" />
-    <public type="string" name="policylab_wipeData_secondaryUser" id="0x01040785" />
-    <public type="string" name="policydesc_wipeData_secondaryUser" id="0x01040786" />
-    <public type="string" name="lockscreen_access_pattern_cell_added_verbose" id="0x01040787" />
-    <public type="string" name="lockscreen_access_pattern_area" id="0x01040788" />
-    <public type="string" name="search_hint" id="0x01040789" />
-    <public type="string" name="android_start_title" id="0x0104078a" />
-    <public type="string" name="android_preparing_apk" id="0x0104078b" />
-    <public type="string" name="dump_heap_notification" id="0x0104078c" />
-    <public type="string" name="dump_heap_notification_detail" id="0x0104078d" />
-    <public type="string" name="dump_heap_title" id="0x0104078e" />
-    <public type="string" name="dump_heap_text" id="0x0104078f" />
-    <public type="string" name="wifi_no_internet" id="0x01040790" />
-    <public type="string" name="wifi_no_internet_detailed" id="0x01040791" />
-    <public type="string" name="wifi_connect_alert_title" id="0x01040792" />
-    <public type="string" name="wifi_connect_alert_message" id="0x01040793" />
-    <public type="string" name="wifi_connect_default_application" id="0x01040794" />
-    <public type="string" name="usb_midi_notification_title" id="0x01040795" />
-    <public type="string" name="ext_media_new_notification_message" id="0x01040796" />
-    <public type="string" name="ext_media_ready_notification_message" id="0x01040797" />
-    <public type="string" name="ext_media_unsupported_notification_title" id="0x01040798" />
-    <public type="string" name="ext_media_unsupported_notification_message" id="0x01040799" />
-    <public type="string" name="ext_media_unmounting_notification_title" id="0x0104079a" />
-    <public type="string" name="ext_media_unmounting_notification_message" id="0x0104079b" />
-    <public type="string" name="ext_media_init_action" id="0x0104079c" />
-    <public type="string" name="ext_media_unmount_action" id="0x0104079d" />
-    <public type="string" name="ext_media_browse_action" id="0x0104079e" />
-    <public type="string" name="ext_media_missing_title" id="0x0104079f" />
-    <public type="string" name="ext_media_missing_message" id="0x010407a0" />
-    <public type="string" name="ext_media_move_specific_title" id="0x010407a1" />
-    <public type="string" name="ext_media_move_title" id="0x010407a2" />
-    <public type="string" name="ext_media_move_success_title" id="0x010407a3" />
-    <public type="string" name="ext_media_move_success_message" id="0x010407a4" />
-    <public type="string" name="ext_media_move_failure_title" id="0x010407a5" />
-    <public type="string" name="ext_media_move_failure_message" id="0x010407a6" />
-    <public type="string" name="ext_media_status_removed" id="0x010407a7" />
-    <public type="string" name="ext_media_status_unmounted" id="0x010407a8" />
-    <public type="string" name="ext_media_status_checking" id="0x010407a9" />
-    <public type="string" name="ext_media_status_mounted" id="0x010407aa" />
-    <public type="string" name="ext_media_status_mounted_ro" id="0x010407ab" />
-    <public type="string" name="ext_media_status_bad_removal" id="0x010407ac" />
-    <public type="string" name="ext_media_status_unmountable" id="0x010407ad" />
-    <public type="string" name="ext_media_status_unsupported" id="0x010407ae" />
-    <public type="string" name="ext_media_status_ejecting" id="0x010407af" />
-    <public type="string" name="ext_media_status_formatting" id="0x010407b0" />
-    <public type="string" name="ext_media_status_missing" id="0x010407b1" />
-    <public type="string" name="permlab_requestInstallPackages" id="0x010407b2" />
-    <public type="string" name="permdesc_requestInstallPackages" id="0x010407b3" />
-    <public type="string" name="date_picker_prev_month_button" id="0x010407b4" />
-    <public type="string" name="date_picker_next_month_button" id="0x010407b5" />
-    <public type="string" name="storage_sd_card_label" id="0x010407b6" />
-    <public type="string" name="storage_usb_drive" id="0x010407b7" />
-    <public type="string" name="storage_usb_drive_label" id="0x010407b8" />
-    <public type="string" name="immersive_cling_title" id="0x010407b9" />
-    <public type="string" name="immersive_cling_description" id="0x010407ba" />
-    <public type="string" name="immersive_cling_positive" id="0x010407bb" />
-    <public type="string" name="package_installed_device_owner" id="0x010407bc" />
-    <public type="string" name="package_updated_device_owner" id="0x010407bd" />
-    <public type="string" name="package_deleted_device_owner" id="0x010407be" />
-    <public type="string" name="zen_mode_until" id="0x010407bf" />
-    <public type="string" name="zen_mode_alarm" id="0x010407c0" />
-    <public type="string" name="zen_mode_forever_dnd" id="0x010407c1" />
-    <public type="string" name="zen_mode_rule_name_combination" id="0x010407c2" />
-    <public type="string" name="toolbar_collapse_description" id="0x010407c3" />
-    <public type="string" name="zen_mode_feature_name" id="0x010407c4" />
-    <public type="string" name="zen_mode_downtime_feature_name" id="0x010407c5" />
-    <public type="string" name="zen_mode_default_weeknights_name" id="0x010407c6" />
-    <public type="string" name="zen_mode_default_weekends_name" id="0x010407c7" />
-    <public type="string" name="zen_mode_default_events_name" id="0x010407c8" />
-    <public type="string" name="muted_by" id="0x010407c9" />
-    <public type="string" name="system_error_wipe_data" id="0x010407ca" />
-    <public type="string" name="system_error_manufacturer" id="0x010407cb" />
-    <public type="string" name="notification_work_profile_content_description" id="0x010407cc" />
-    <public type="string" name="usb_midi_peripheral_name" id="0x010407cd" />
-    <public type="string" name="usb_midi_peripheral_manufacturer_name" id="0x010407ce" />
-    <public type="string" name="usb_midi_peripheral_product_name" id="0x010407cf" />
-    <public type="string" name="floating_toolbar_open_overflow_description" id="0x010407d0" />
-    <public type="string" name="floating_toolbar_close_overflow_description" id="0x010407d1" />
-    <public type="string" name="other_permissions" id="0x010407d2" />
-    <public type="string" name="permission_title" id="0x010407d3" />
-    <public type="string" name="allow_button" id="0x010407d4" />
-    <public type="string" name="deny_button" id="0x010407d5" />
     <public type="string" name="permlab_receiveBluetoothMap" id="0x010406ba" />
     <public type="string" name="permdesc_receiveBluetoothMap" id="0x010406bb" />
     <public type="string" name="permlab_startTasksFromRecents" id="0x010406bc" />
@@ -5093,10 +4869,14 @@
     <public type="string" name="permdesc_modifyParentalControls" id="0x010406c9" />
     <public type="string" name="permlab_bindJobService" id="0x010406ca" />
     <public type="string" name="permdesc_bindJobService" id="0x010406cb" />
+    <public type="string" name="permlab_bodySensors" id="0x010406cc" />
+    <public type="string" name="permdesc_bodySensors" id="0x010406cd" />
     <public type="string" name="permlab_accessInputFlinger" id="0x010406ce" />
     <public type="string" name="permdesc_accessInputFlinger" id="0x010406cf" />
     <public type="string" name="permlab_modifyAudioRouting" id="0x010406d0" />
     <public type="string" name="permdesc_modifyAudioRouting" id="0x010406d1" />
+    <public type="string" name="permlab_sim_communication" id="0x010406d2" />
+    <public type="string" name="permdesc_sim_communication" id="0x010406d3" />
     <public type="string" name="permlab_readPrecisePhoneState" id="0x010406d4" />
     <public type="string" name="permdesc_readPrecisePhoneState" id="0x010406d5" />
     <public type="string" name="permlab_userActivity" id="0x010406d6" />
@@ -5105,11 +4885,45 @@
     <public type="string" name="permdesc_bluetoothMap" id="0x010406d9" />
     <public type="string" name="permlab_scoreNetworks" id="0x010406da" />
     <public type="string" name="permdesc_scoreNetworks" id="0x010406db" />
+    <public type="string" name="permlab_bind_incall_service" id="0x010406dc" />
+    <public type="string" name="permdesc_bind_incall_service" id="0x010406dd" />
+    <public type="string" name="permlab_bind_connection_service" id="0x010406de" />
+    <public type="string" name="permdesc_bind_connection_service" id="0x010406df" />
+    <public type="string" name="permlab_control_incall_experience" id="0x010406e0" />
+    <public type="string" name="permdesc_control_incall_experience" id="0x010406e1" />
+    <public type="string" name="permlab_bindConditionProviderService" id="0x010406e2" />
+    <public type="string" name="permdesc_bindConditionProviderService" id="0x010406e3" />
+    <public type="string" name="permlab_bindDreamService" id="0x010406e4" />
+    <public type="string" name="permdesc_bindDreamService" id="0x010406e5" />
+    <public type="string" name="permlab_setInputCalibration" id="0x010406e6" />
+    <public type="string" name="permdesc_setInputCalibration" id="0x010406e7" />
+    <public type="string" name="permlab_accessDrmCertificates" id="0x010406e8" />
+    <public type="string" name="permdesc_accessDrmCertificates" id="0x010406e9" />
+    <public type="string" name="permlab_handoverStatus" id="0x010406ea" />
+    <public type="string" name="permdesc_handoverStatus" id="0x010406eb" />
+    <public type="string" name="permlab_removeDrmCertificates" id="0x010406ec" />
+    <public type="string" name="permdesc_removeDrmCertificates" id="0x010406ed" />
+    <public type="string" name="quick_contacts_not_available" id="0x010406ee" />
+    <public type="string" name="lockscreen_transport_rew_description" id="0x010406ef" />
+    <public type="string" name="lockscreen_transport_ffw_description" id="0x010406f0" />
     <public type="string" name="permlab_writeVoicemail" id="0x010406f1" />
     <public type="string" name="permdesc_writeVoicemail" id="0x010406f2" />
     <public type="string" name="permlab_readVoicemail" id="0x010406f3" />
     <public type="string" name="permdesc_readVoicemail" id="0x010406f4" />
+    <public type="string" name="low_internal_storage_view_text_no_boot" id="0x010406f5" />
+    <public type="string" name="whichApplicationNamed" id="0x010406f6" />
+    <public type="string" name="whichViewApplication" id="0x010406f7" />
+    <public type="string" name="whichViewApplicationNamed" id="0x010406f8" />
+    <public type="string" name="whichEditApplication" id="0x010406f9" />
+    <public type="string" name="whichEditApplicationNamed" id="0x010406fa" />
+    <public type="string" name="whichSendApplication" id="0x010406fb" />
+    <public type="string" name="whichSendApplicationNamed" id="0x010406fc" />
+    <public type="string" name="whichHomeApplicationNamed" id="0x010406fd" />
+    <public type="string" name="use_a_different_app" id="0x010406fe" />
+    <public type="string" name="android_upgrading_fstrim" id="0x010406ff" />
+    <public type="string" name="usb_charging_notification_title" id="0x01040700" />
     <public type="string" name="usb_choose_notification_title" id="0x01040701" />
+    <public type="string" name="show_ime" id="0x01040702" />
     <public type="string" name="permlab_trust_listener" id="0x01040703" />
     <public type="string" name="permdesc_trust_listener" id="0x01040704" />
     <public type="string" name="permlab_provide_trust_agent" id="0x01040705" />
@@ -5122,17 +4936,53 @@
     <public type="string" name="permdesc_recovery" id="0x0104070c" />
     <public type="string" name="permlab_manageMediaProjection" id="0x0104070d" />
     <public type="string" name="permdesc_manageMediaProjection" id="0x0104070e" />
+    <public type="string" name="permlab_readInstallSessions" id="0x0104070f" />
+    <public type="string" name="permdesc_readInstallSessions" id="0x01040710" />
+    <public type="string" name="forward_intent_to_owner" id="0x01040711" />
+    <public type="string" name="forward_intent_to_work" id="0x01040712" />
+    <public type="string" name="condition_provider_service_binding_label" id="0x01040713" />
+    <public type="string" name="tethered_notification_no_device_message" id="0x01040714" />
+    <public type="string" name="tethered_notification_one_device_message" id="0x01040715" />
+    <public type="string" name="tethered_notification_multi_device_message" id="0x01040716" />
+    <public type="string" name="storage_uicc" id="0x01040717" />
+    <public type="string" name="activity_resolver_work_profiles_support" id="0x01040718" />
+    <public type="string" name="user_switching_message" id="0x01040719" />
+    <public type="string" name="error_message_change_not_allowed" id="0x0104071a" />
+    <public type="string" name="done_label" id="0x0104071b" />
+    <public type="string" name="hour_picker_description" id="0x0104071c" />
+    <public type="string" name="minute_picker_description" id="0x0104071d" />
+    <public type="string" name="select_hours" id="0x0104071e" />
+    <public type="string" name="select_minutes" id="0x0104071f" />
     <public type="string" name="day_picker_description" id="0x01040720" />
     <public type="string" name="year_picker_description" id="0x01040721" />
+    <public type="string" name="select_day" id="0x01040722" />
+    <public type="string" name="select_year" id="0x01040723" />
     <public type="string" name="item_is_selected" id="0x01040724" />
+    <public type="string" name="deleted_key" id="0x01040725" />
+    <public type="string" name="managed_profile_label_badge" id="0x01040726" />
+    <public type="string" name="lock_to_app_toast_locked" id="0x0104072d" />
+    <public type="string" name="lock_to_app_title" id="0x0104072e" />
+    <public type="string" name="lock_to_app_negative" id="0x01040731" />
+    <public type="string" name="lock_to_app_positive" id="0x01040732" />
+    <public type="string" name="lock_to_app_start" id="0x01040733" />
+    <public type="string" name="lock_to_app_exit" id="0x01040734" />
+    <public type="string" name="lock_to_app_unlock_pin" id="0x01040735" />
+    <public type="string" name="lock_to_app_unlock_pattern" id="0x01040736" />
+    <public type="string" name="lock_to_app_unlock_password" id="0x01040737" />
+    <public type="string" name="battery_saver_description" id="0x01040738" />
+    <public type="string" name="downtime_condition_summary" id="0x01040739" />
+    <public type="string" name="zen_mode_forever" id="0x0104073a" />
+    <public type="string" name="China_Mobile" id="0x0104073b" />
+    <public type="string" name="China_Unicom" id="0x0104073c" />
+    <public type="string" name="China_Telecom" id="0x0104073d" />
+    <public type="string" name="permission_remember_choice" id="0x0104073e" />
+    <public type="string" name="reboot_progress" id="0x0104073f" />
+    <public type="string" name="keyguard_password_pin_failed" id="0x0104066e" />
+    <public type="string" name="keyguard_password_puk_failed" id="0x0104066f" />
     <public type="string" name="time_placeholder" id="0x01040727" />
     <public type="string" name="radial_numbers_typeface" id="0x01040728" />
     <public type="string" name="sans_serif" id="0x01040729" />
     <public type="string" name="day_of_week_label_typeface" id="0x0104072a" />
-    <public type="string" name="lock_to_app_title" id="0x0104072e" />
-    <public type="string" name="lock_to_app_negative" id="0x01040731" />
-    <public type="string" name="lock_to_app_positive" id="0x01040732" />
-    <public type="string" name="downtime_condition_summary" id="0x01040739" />
     <public type="string" name="APKTOOL_DUMMY_063d" id="0x0104063d" />
     <public type="string" name="APKTOOL_DUMMY_063e" id="0x0104063e" />
     <public type="string" name="APKTOOL_DUMMY_063f" id="0x0104063f" />
@@ -8012,7 +7862,6 @@
     <public type="integer" name="kg_carousel_angle" id="0x010e0055" />
     <public type="integer" name="kg_glowpad_rotation_offset" id="0x010e0056" />
     <public type="integer" name="config_overrideHasPermanentMenuKey" id="0x010e005a" />
-    <public type="integer" name="resumeboost_timeout_param" id="0x010e005b" />
     <public type="integer" name="kg_selector_gravity" id="0x010e0057" />
     <public type="integer" name="kg_widget_region_weight" id="0x010e0058" />
     <public type="integer" name="kg_security_flipper_weight" id="0x010e0059" />
@@ -8143,7 +7992,6 @@
     <public type="bool" name="config_voiceprint_unlock_circle_ani_enable" id="0x01110067" />
     <public type="bool" name="config_voiceprint_unlock_ripple_ani_enable" id="0x01110068" />
     <public type="bool" name="lockscreen_isPortrait" id="0x01110069" />
-    <public type="bool" name="useImsAlwaysForEmergencyCall" id="0x0111006a" />
     <public type="bool" name="kg_share_status_area" id="0x0111000d" />
     <public type="bool" name="kg_sim_puk_account_full_screen" id="0x0111000e" />
     <public type="fraction" name="config_dimBehindFadeDuration" id="0x01120000" />
@@ -8174,13 +8022,6 @@
     <public type="plurals" name="restr_pin_countdown" id="0x01130018" />
     <public type="plurals" name="zen_mode_duration_minutes" id="0x01130019" />
     <public type="plurals" name="zen_mode_duration_hours" id="0x0113001a" />
-    <public type="plurals" name="zen_mode_duration_minutes_summary" id="0x0113001b" />
-    <public type="plurals" name="zen_mode_duration_minutes_summary_short" id="0x0113001c" />
-    <public type="plurals" name="zen_mode_duration_hours_summary" id="0x0113001d" />
-    <public type="plurals" name="zen_mode_duration_hours_summary_short" id="0x0113001e" />
-    <public type="plurals" name="zen_mode_duration_minutes_short" id="0x0113001f" />
-    <public type="plurals" name="zen_mode_duration_hours_short" id="0x01130020" />
-    <public type="plurals" name="selected_count" id="0x01130021" />
     <public type="menu" name="webview_copy" id="0x01140000" />
     <public type="menu" name="webview_find" id="0x01140001" />
     <public type="menu" name="webviewchromium_select_action_menu" id="0x01140002" />

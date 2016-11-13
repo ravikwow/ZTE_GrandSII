@@ -1012,10 +1012,10 @@
     <string name="volume_notification">ਸੂਚਨਾ ਵੌਲਯੂਮ</string>
     <string name="volume_unknown">ਵੌਲਯੂਮ</string>
     <string name="volume_icon_description_bluetooth">ਬਲਿਊਟੁੱਥ</string>
-    <string name="volume_icon_description_ringer">ਘੰਟੀ</string>
+    <string name="volume_icon_description_ringer">ਰਿੰਗਰ</string>
     <string name="volume_icon_description_incall">ਕਾਲ</string>
     <string name="volume_icon_description_media">ਮੀਡੀਆ</string>
-    <string name="volume_icon_description_notification">ਸੂਚਨਾ</string>
+    <string name="volume_icon_description_notification">ਨੋਟੀਫਿਕੇਸ਼ਨ</string>
     <string name="ringtone_default">ਡਿਫੌਲਟ ਰਿੰਗਟੋਨ</string>
     <string name="ringtone_default_with_actual">ਡਿਫੌਲਟ ਰਿੰਗਟੋਨ (%1$s)</string>
     <string name="ringtone_silent">ਕੋਈ ਨਹੀਂ</string>

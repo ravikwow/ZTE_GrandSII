@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Домашній</item>
+        <item>Робочий</item>
+        <item>Інший</item>
+        <item>Створити</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Робочий</item>
+        <item>Інший</item>
+        <item>Створити</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Домашній</item>
+        <item>Мобильный</item>
+        <item>Робочий</item>
+        <item>Робочий факс</item>
+        <item>Домашній факс</item>
+        <item>Пейджер</item>
+        <item>Інший</item>
+        <item>Створити</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Домашній</item>
+        <item>Робочий</item>
+        <item>Інший</item>
+        <item>Створити</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>отримати доступ до місцезнаходження пристрою</item>
+        <item>отримати доступ до місцезнаходження пристрою</item>
+        <item>отримати доступ до місцезнаходження пристрою</item>
+        <item>Використовувати тактильну віддачу</item>
+        <item>рахувати дані контактів</item>
+        <item>змінити дані контактів</item>
+        <item>рахувати дані списку викликів</item>
+        <item>змінити дані списку викликів</item>
+        <item>рахувати дані календаря</item>
+        <item>змінити дані календаря</item>
+        <item>отримати доступ до місцезнаходження пристрою</item>
+        <item>вивести сповіщення</item>
+        <item>отримати доступ до місцезнаходження пристрою</item>
+        <item>виконати телефонний дзвінок</item>
+        <item>рахувати SMS-повідомлення</item>
+        <item>створити SMS-повідомлення</item>
+        <item>отримати SMS-повідомлення</item>
+        <item>отримати SMS-повідомлення</item>
+        <item>отримати MMS-повідомлення</item>
+        <item>отримати SMS-повідомлення</item>
+        <item>надіслати SMS-повідомлення</item>
+        <item>рахувати SMS-повідомлення</item>
+        <item>створити SMS-повідомлення</item>
+        <item>змінити системні параметри</item>
+        <item>відобразитися зверху інших елементів</item>
+        <item>отримати доступ до сповіщень</item>
+        <item>отримати доступ до камери</item>
+        <item>записати аудіо</item>
+        <item>відтворити аудіо</item>
+        <item>рахувати зміст буфера обміну</item>
+        <item>змінити зміст буфера обміну</item>
+        <item>використовувати медіа кнопки</item>
+        <item>використовувати аудіофокус</item>
+        <item>змінити загальну гучність</item>
+        <item>змінити гучність розмови</item>
+        <item>використовувати гучність дзвінка</item>
+        <item>використовувати гучність медіа</item>
+        <item>використовувати гучність будильника</item>
+        <item>використовувати гучність сповіщень</item>
+        <item>використовувати гучність Bluetooth</item>
+        <item>тримати пристрій увімкненим</item>
+        <item>отримати доступ до місцезнаходження пристрою</item>
+        <item>отримати доступ до місцезнаходження пристрою</item>
+        <item>переключити стан Wi-Fi</item>
+        <item>переключити стан Bluetooth</item>
+        <item>переключити стан мобільного інтернету</item>
+        <item>надіслати MMS-повідомлення</item>
+        <item>рахувати MMS-повідомлення</item>
+        <item>створити MMS-повідомлення</item>
+        <item>запуститися в автозавантаженні</item>
+    </string-array>
+    <integer-array name="maps_starting_lat_lng">
+        <item>55750449</item>
+        <item>37621136</item>
+    </integer-array>
+    <integer-array name="maps_starting_zoom">
+        <item>2</item>
+    </integer-array>
+    <string-array name="imAddressTypes">
+        <item>Домашній</item>
+        <item>Робочий</item>
+        <item>Інший</item>
+        <item>Створити</item>
+    </string-array>
+</resources>

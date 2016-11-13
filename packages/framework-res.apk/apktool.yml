@@ -3,6 +3,7 @@ apkFileName: framework-res.apk
 compressionType: false
 doNotCompress:
 - arsc
+- html
 isFrameworkApk: true
 packageInfo:
   forcedPackageId: '1'

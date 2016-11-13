@@ -44,12 +44,12 @@
     <integer name="config_notificationsBatteryLedOff">2875</integer>
     <integer name="config_longPressOnHomeBehavior">0</integer>
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
-    <integer name="config_screenBrightnessSettingMinimum">10</integer>
+    <integer name="config_screenBrightnessSettingMinimum">2</integer>
     <integer name="config_screenBrightnessSettingMaximum">255</integer>
     <integer name="config_screenBrightnessSettingDefault">102</integer>
-    <integer name="config_screenBrightnessDim">10</integer>
+    <integer name="config_screenBrightnessDim">2</integer>
     <integer name="config_lightSensorWarmupTime">0</integer>
-    <integer name="config_virtualKeyQuietTimeMillis">100</integer>
+    <integer name="config_virtualKeyQuietTimeMillis">0</integer>
     <integer name="config_datause_polling_period_sec">600</integer>
     <integer name="config_datause_threshold_bytes">0</integer>
     <integer name="config_datause_throttle_kbitsps">300</integer>
@@ -63,10 +63,10 @@
     <integer name="config_downloadDataDirLowSpaceThreshold">10</integer>
     <integer name="config_cursorWindowSize">2048</integer>
     <integer name="config_ntpPollingInterval">864000000</integer>
-    <integer name="config_ntpPollingIntervalShorter">6000</integer>
-    <integer name="config_ntpRetry">20</integer>
+    <integer name="config_ntpPollingIntervalShorter">60000</integer>
+    <integer name="config_ntpRetry">3</integer>
     <integer name="config_ntpThreshold">5000</integer>
-    <integer name="config_ntpTimeout">5000</integer>
+    <integer name="config_ntpTimeout">20000</integer>
     <integer name="config_networkPolicyDefaultWarning">10</integer>
     <integer name="config_maxResolverActivityColumns">2</integer>
     <integer name="config_multiuserMaximumUsers">1</integer>
@@ -88,5 +88,4 @@
     <integer name="kg_carousel_angle">75</integer>
     <integer name="kg_glowpad_rotation_offset">0</integer>
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
-    <integer name="resumeboost_timeout_param">300</integer>
 </resources>

@@ -1190,7 +1190,7 @@
     <string name="car_mode_disable_notification_title">已启用车载模式</string>
     <string name="car_mode_disable_notification_message">触摸可退出车载模式。</string>
     <string name="tethered_notification_title">网络共享或热点已启用</string>
-    <string name="tethered_notification_message">触摸可进行设置</string>
+    <string name="tethered_notification_message">触摸可进行设置。</string>
     <string name="back_button_label">上一步</string>
     <string name="next_button_label">下一步</string>
     <string name="skip_button_label">跳过</string>
@@ -1547,7 +1547,4 @@
 要取消固定屏幕，请同时触摸并按住“桌面键”和“电源键”。"</string>
     <string name="keyguard_password_pin_failed">PIN ▒| ~A▒~S~M▒~败!</string>
     <string name="keyguard_password_puk_failed">PUK ▒| ~A▒~S~M▒~败!</string>
-    <string name="tethered_notification_no_device_message">没有设备已连接</string>
-    <string name="tethered_notification_one_device_message">%1$s个设备已连接</string>
-    <string name="tethered_notification_multi_device_message">%1$s个设备已连接</string>
 </resources>

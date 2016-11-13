@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="needPuk">La tarjeta USIM está bloqueada por el PUK. Introduzca el código PUK para desbloquearla.</string>
-    <string name="needPuk2">Escriba el PUK2 para desbloquear la tarjeta USIM.</string>
-    <string name="permdesc_readSms">Permitir a la aplicación leer los mensajes SMS almacenados en su tablet o tarjeta USIM. Aplicaciones maliciosas pueden leer sus mensajes confidenciales.</string>
-    <string name="permdesc_writeSms">Permitir a la aplicación escribir en los mensajes SMS almacenados en su tablet o tarjeta USIM. Aplicaciones maliciosas pueden borrar sus mensajes.</string>
+    <string name="needPuk">La tarjeta USIM está bloqueada por el PUK. Escribe el código PUK para desbloquearla.</string>
+    <string name="needPuk2">Escribe el PUK2 para desbloquear la tarjeta USIM.</string>
+    <string name="permdesc_readSms">Permite a la aplicación leer los mensajes SMS almacenados en tu tablet o tarjeta USIM. Aplicaciones maliciosas pueden leer tus mensajes confidenciales.</string>
+    <string name="permdesc_writeSms">Permite la aplicación escribir en los mensajes SMS almacenados en tu tablet o tarjeta USIM. Aplicaciones maliciosas pueden borrar tus mensajes.</string>
     <string name="lockscreen_missing_sim_message_short">No hay tarjeta UIM.</string>
-    <string name="lockscreen_missing_sim_message">No hay una tarjeta UIM en el teléfono.</string>
-    <string name="lockscreen_missing_sim_instructions">Por favor, inserte una tarjeta UIM.</string>
-    <string name="lockscreen_missing_sim_instructions_long">La tarjeta UIM no está o no es legible. Por favor, inserte una tarjeta UIM.</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">"Su tarjeta UIM está permanentemente desactivada. 
- Póngase en contacto con su proveedor de servicios de telefonía para obtener otra tarjeta UIM."</string>
-    <string name="lockscreen_sim_puk_locked_message">La tarjeta UIM está bloqueada por el PUK.</string>
+    <string name="lockscreen_missing_sim_message">No hay tarjeta UIM en el teléfono.</string>
+    <string name="lockscreen_missing_sim_instructions">Inserta una tarjeta UIM.</string>
+    <string name="lockscreen_missing_sim_instructions_long">La tarjeta UIM no está o no es legible. Inserta una tarjeta UIM.</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">"La tarjeta UIM está permanentemente desactivada. 
+ Ponte en contacto con tu proveedor de servicios de telefonía para obtener otra tarjeta UIM."</string>
+    <string name="lockscreen_sim_puk_locked_message">Tarjeta UIM está bloqueada por el PUK.</string>
     <string name="lockscreen_sim_locked_message">Tarjeta UIM bloqueada.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Desbloqueando UIM…</string>
     <string name="sim_removed_title">Tarjeta UIM extraída</string>

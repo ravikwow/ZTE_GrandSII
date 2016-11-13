@@ -17,7 +17,7 @@
     <bool name="ImsConnectedDefaultValue">false</bool>
     <bool name="config_sf_slowBlur">true</bool>
     <bool name="config_useMasterVolume">false</bool>
-    <bool name="config_useVolumeKeySounds">false</bool>
+    <bool name="config_useVolumeKeySounds">true</bool>
     <bool name="config_sendAudioBecomingNoisy">true</bool>
     <bool name="config_ui_enableFadingMarquee">true</bool>
     <bool name="config_closeDialogWhenTouchOutside">true</bool>
@@ -49,8 +49,8 @@
     <bool name="config_enable_emergency_call_while_sim_locked">true</bool>
     <bool name="config_swipeDisambiguation">true</bool>
     <bool name="config_enableWallpaperService">true</bool>
-    <bool name="config_enableNetworkLocationOverlay">false</bool>
-    <bool name="config_enableFusedLocationOverlay">false</bool>
+    <bool name="config_enableNetworkLocationOverlay">true</bool>
+    <bool name="config_enableFusedLocationOverlay">true</bool>
     <bool name="config_enableGeocoderOverlay">true</bool>
     <bool name="config_enableGeofenceOverlay">true</bool>
     <bool name="config_bluetooth_sco_off_call">true</bool>
@@ -73,9 +73,9 @@
     <bool name="config_actionMenuItemAllCaps">true</bool>
     <bool name="config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="config_wimaxEnabled">false</bool>
-    <bool name="config_dreamsSupported">true</bool>
-    <bool name="config_dreamsEnabledByDefault">true</bool>
-    <bool name="config_dreamsActivatedOnDockByDefault">true</bool>
+    <bool name="config_dreamsSupported">false</bool>
+    <bool name="config_dreamsEnabledByDefault">false</bool>
+    <bool name="config_dreamsActivatedOnDockByDefault">false</bool>
     <bool name="config_dreamsActivatedOnSleepByDefault">false</bool>
     <bool name="config_cellBroadcastAppLinks">true</bool>
     <bool name="skip_radio_power_off_on_sim_refresh_reset">true</bool>
@@ -83,7 +83,7 @@
     <bool name="config_send_sms1x_on_voice_call">true</bool>
     <bool name="config_enableWifiDisplay">false</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
-    <bool name="config_safe_media_volume_enabled">true</bool>
+    <bool name="config_safe_media_volume_enabled">false</bool>
     <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
     <bool name="config_camera_sound_forced">true</bool>
     <bool name="config_dontPreferApn">false</bool>
@@ -104,5 +104,4 @@
     <bool name="config_voiceprint_unlock_circle_ani_enable">true</bool>
     <bool name="config_voiceprint_unlock_ripple_ani_enable">false</bool>
     <bool name="lockscreen_isPortrait">true</bool>
-    <bool name="useImsAlwaysForEmergencyCall">false</bool>
 </resources>

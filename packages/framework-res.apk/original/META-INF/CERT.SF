@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: LBLP92B8kNTKXLYfKR7MBLp6Uu0=
+SHA1-Digest-Manifest: ONsOmaIURwjdYsVLjn4Cs1f/a5Q=
 
 Name: res/drawable-xxhdpi/hf_weather_sleet.png
 SHA1-Digest: atsoErzq2qFx5XvnkPrCdCfdk90=
@@ -1066,7 +1066,7 @@ Name: res/drawable-xxhdpi/btn_radio_on_pressed_holo_light.png
 SHA1-Digest: +x1KoGJ78fR6dqGfn5/Pe6DjcWk=
 
 Name: res/layout/notification_template_big_text_common.xml
-SHA1-Digest: lad+boQdwDTX8R5JLJ5PBDvz/0E=
+SHA1-Digest: sqc+EpLJdvJX5Kwc5M7eALxauak=
 
 Name: res/drawable-xhdpi/perm_group_social_info.png
 SHA1-Digest: LvpXDsW5pujKzW1yf4JzOWK6u7I=
@@ -4042,7 +4042,7 @@ Name: res/drawable-xhdpi/ic_menu_recent_history.png
 SHA1-Digest: tM7ybqX86YcvmRxcOVQP/X+UQ5M=
 
 Name: res/layout/notification_template_base_common.xml
-SHA1-Digest: FTTq7dDqWPCj8elxX4Rpkzhxnac=
+SHA1-Digest: bUWOYtFQsARyBKHtfXhNngOX3NA=
 
 Name: res/drawable-mdpi/dialog_divider_horizontal_holo_dark.9.png
 SHA1-Digest: 77YWnAq8mxH3LvIuypnkz3d94t4=
@@ -5320,7 +5320,7 @@ Name: res/drawable-xxhdpi/textfield_multiline_disabled_focused_holo_li
 SHA1-Digest: TuGvfB3I1eEfj/b6Q/6l7TNU7w4=
 
 Name: res/layout/notification_template_big_base_common.xml
-SHA1-Digest: 6QYzChAJVMomV4urOf9Z80mtxt8=
+SHA1-Digest: 9YZFE4G6l4J33FKUVOk76G3eJtc=
 
 Name: res/drawable-xhdpi/tab_selected_bar_right.9.png
 SHA1-Digest: sNnXYqJhfXjC3IMH8MqL5cpTkx4=
@@ -7737,7 +7737,7 @@ Name: res/drawable-xxhdpi/sym_def_app_icon.png
 SHA1-Digest: 9TsWo2w/N9RoLxi5Pn2IOyt3Wq8=
 
 Name: res/layout/notification_template_big_picture_common.xml
-SHA1-Digest: C4q4Q9L4qs0lp3efX40iFkhlg4w=
+SHA1-Digest: OxsSHsYlpFEmeXNhk3/7onFx0WE=
 
 Name: res/drawable-mdpi/btn_default_normal.9.png
 SHA1-Digest: AKIfYuTxL4JwS6PUdjucV4R/gYA=
@@ -8552,7 +8552,7 @@ Name: res/drawable-hdpi/scrubber_primary_holo.9.png
 SHA1-Digest: mQURChfrgjusvNb9YYilLE+Fme0=
 
 Name: res/layout/notification_template_base.xml
-SHA1-Digest: dJeLiZh7xG3CSDOq1FDeZOPa5i0=
+SHA1-Digest: bBYh6+5H0jioGZ6EOhF8kyTdgCA=
 
 Name: res/drawable-hdpi/ic_media_route_on_2_holo_light.png
 SHA1-Digest: QjvMJukVXZCcc890j6cuko7mH20=
@@ -11304,7 +11304,7 @@ Name: res/layout/heavy_weight_switcher.xml
 SHA1-Digest: 8JN6O3jbfqJ5NO0wG/uWiwv3dh8=
 
 Name: res/layout/notification_template_inbox_common.xml
-SHA1-Digest: XpnSwl/MKcoP0Xtut9P+CoXTCVc=
+SHA1-Digest: YirFR3dmOZrzyZd8vMzyPfH5sSI=
 
 Name: res/drawable-xxhdpi/menu_hardkey_panel_holo_dark.9.png
 SHA1-Digest: Q31APffyVK4H/cT9woYCLtSqD3A=
@@ -12109,7 +12109,7 @@ Name: res/drawable-xxhdpi/btn_check_off_disabled_focused_holo_light.pn
 SHA1-Digest: fgZjtKS7xEu1+TG7P+UA3EL+C2U=
 
 Name: res/layout/notification_template_big_picture.xml
-SHA1-Digest: 8HFCTtHpS3NSlRh3+V1WXHLxp20=
+SHA1-Digest: PLCKfiqRrmjM7Ulvtb2ZoOxZbKE=
 
 Name: res/drawable-xhdpi/btn_check_off_disable_focused_holo_light.png
 SHA1-Digest: TEO/oZRb6kl+CuCE19FglUutug4=
@@ -16779,7 +16779,7 @@ Name: res/drawable-mdpi/spinner_default_holo_dark_am.9.png
 SHA1-Digest: JWvedI2xCGSm3F5ees0fKZQaywY=
 
 Name: resources.arsc
-SHA1-Digest: IJsCUvvfrMtbIyFWrFJB5EBRyf8=
+SHA1-Digest: 33a7qA4Gq+z9ZWyKjPd0kdFkg7M=
 
 Name: res/drawable-xxhdpi/list_selector_background_pressed.9.png
 SHA1-Digest: ILjMoiLJy09Diy+GaAEmE+FQ2Z8=
