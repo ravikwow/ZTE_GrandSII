@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/widget_w_unknown" android:maxLevel="0" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="1" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="2" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="3" />
+    <item android:drawable="@drawable/widget_w_cloudy" android:maxLevel="4" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="5" />
+    <item android:drawable="@drawable/widget_w_cloudy" android:maxLevel="6" />
+    <item android:drawable="@drawable/widget_w_cloudy" android:maxLevel="7" />
+    <item android:drawable="@drawable/widget_w_dreary_am_pm" android:maxLevel="8" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="9" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="10" />
+    <item android:drawable="@drawable/widget_w_fog_am_pm" android:maxLevel="11" />
+    <item android:drawable="@drawable/widget_w_shower" android:maxLevel="12" />
+    <item android:drawable="@drawable/widget_w_shower" android:maxLevel="13" />
+    <item android:drawable="@drawable/widget_w_shower" android:maxLevel="14" />
+    <item android:drawable="@drawable/widget_w_thunderstorms_am_pm" android:maxLevel="15" />
+    <item android:drawable="@drawable/widget_w_thunderstorms_am_pm" android:maxLevel="16" />
+    <item android:drawable="@drawable/widget_w_shower" android:maxLevel="17" />
+    <item android:drawable="@drawable/widget_w_rain_am_pm" android:maxLevel="18" />
+    <item android:drawable="@drawable/widget_w_snow" android:maxLevel="19" />
+    <item android:drawable="@drawable/widget_w_snow" android:maxLevel="20" />
+    <item android:drawable="@drawable/widget_w_snow" android:maxLevel="21" />
+    <item android:drawable="@drawable/widget_w_snow" android:maxLevel="22" />
+    <item android:drawable="@drawable/widget_w_snow" android:maxLevel="23" />
+    <item android:drawable="@drawable/widget_w_ice_am_pm" android:maxLevel="24" />
+    <item android:drawable="@drawable/widget_w_sleet_am_pm" android:maxLevel="25" />
+    <item android:drawable="@drawable/widget_w_freezing_rain_am_pm" android:maxLevel="26" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="27" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="28" />
+    <item android:drawable="@drawable/widget_w_sleet_am_pm" android:maxLevel="29" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="30" />
+    <item android:drawable="@drawable/widget_w_hazy" android:maxLevel="31" />
+    <item android:drawable="@drawable/widget_w_hazy" android:maxLevel="32" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="33" />
+    <item android:drawable="@drawable/widget_w_sunny" android:maxLevel="34" />
+    <item android:drawable="@drawable/widget_w_cloudy" android:maxLevel="35" />
+    <item android:drawable="@drawable/widget_w_cloudy" android:maxLevel="36" />
+    <item android:drawable="@drawable/widget_w_hazy" android:maxLevel="37" />
+    <item android:drawable="@drawable/widget_w_cloudy" android:maxLevel="38" />
+    <item android:drawable="@drawable/widget_w_thunderstorms_am_pm" android:maxLevel="39" />
+    <item android:drawable="@drawable/widget_w_shower" android:maxLevel="40" />
+    <item android:drawable="@drawable/widget_w_thunderstorms_am_pm" android:maxLevel="41" />
+    <item android:drawable="@drawable/widget_w_thunderstorms_am_pm" android:maxLevel="42" />
+    <item android:drawable="@drawable/widget_w_snow" android:maxLevel="43" />
+    <item android:drawable="@drawable/widget_w_snow" android:maxLevel="44" />
+</level-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="needPuk">La tua UIM è bloccata tramite PUK. Digita il codice PUK per sbloccarla.</string>
+    <string name="needPuk2">Digita il PUK2 per sbloccare la UIM.</string>
+    <string name="permdesc_readSms">"Consenti all'applicazione di leggere i messaggi SMS memorizzati sul tuo telefono o sulla UIM. Applicazioni dannose potrebbero leggere i tuoi messaggi confidenziali."</string>
+    <string name="permdesc_writeSms">"Consenti all'applicazione di scrivere messaggi SMS e di memorizzarli sul tuo telefono o sulla UIM. Applicazioni dannose potrebbero eliminare i tuoi messaggi."</string>
+    <string name="lockscreen_missing_sim_message_short">Nessuna UIM.</string>
+    <string name="lockscreen_missing_sim_message">Nessuna UIM nel telefono.</string>
+    <string name="lockscreen_missing_sim_instructions">Prego, inserisci una UIM.</string>
+    <string name="lockscreen_missing_sim_instructions_long">La UIM è mancante o non leggibile. Prego inserisci una UIM.</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">"La UIM è permanentemente disattivata. 
+ Prego, contatta il tuo fornitore di servizi wireless per ottenere un'altra UIM."</string>
+    <string name="lockscreen_sim_puk_locked_message">La UIM è bloccata tramite PUK.</string>
+    <string name="lockscreen_sim_locked_message">La UIM è bloccata.</string>
+    <string name="lockscreen_sim_unlock_progress_dialog_message">Sblocco UIM…</string>
+    <string name="sim_removed_title">UIM rimossa</string>
+    <string name="sim_removed_message">La rete di telefonia mobile non sarà disponibile finché non riavvii con una UIM valida inserita.</string>
+    <string name="sim_added_title">UIM aggiunta</string>
+</resources>

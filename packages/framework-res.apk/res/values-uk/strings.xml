@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_ringer">Мелодія</string>
+    <string name="volume_icon_description_incall">Розмова</string>
+    <string name="volume_icon_description_media">Медіа</string>
+    <string name="volume_icon_description_notification">Сповіщення</string>
+    <string name="lock_to_app_toast">Щоб відкріпити екран, натисніть та утримуйте кнопки \"Додому\" і \"Живлення\" одночасно.</string>
+    <string name="lock_to_app_toast_accessible">Щоб відкріпити екран, натисніть та утримуйте кнопки \"Додому\" і \"Живлення\" одночасно.</string>
+    <string name="lock_to_app_description">"Закріплення екрану фіксує його в певному виді.
+
+Щоб відкріпити, натисніть та утримуйте кнопки \"Додому\" і \"Живлення\" одночасно."</string>
+    <string name="lock_to_app_description_accessible">"Закріплення екрану фіксує його в певному виді.
+
+Щоб відкріпити, натисніть та утримуйте кнопки \"Додому\" і \"Живлення\" одночасно."</string>
+</resources>

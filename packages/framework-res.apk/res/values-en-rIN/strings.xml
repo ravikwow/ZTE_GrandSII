@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_ringer">Ringer</string>
+    <string name="volume_icon_description_incall">Call</string>
+    <string name="volume_icon_description_media">Media</string>
+    <string name="volume_icon_description_notification">Notifications</string>
+</resources>

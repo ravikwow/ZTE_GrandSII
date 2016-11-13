@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_ringer">Ѕвонење</string>
+    <string name="volume_icon_description_incall">Повик</string>
+    <string name="volume_icon_description_media">Медиа</string>
+    <string name="volume_icon_description_notification">Известување</string>
+</resources>

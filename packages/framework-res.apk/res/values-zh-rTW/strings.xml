@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="byteShort">B</string>
+    <string name="permgrouplab_accounts">您的帳號</string>
+    <string name="permgroupdesc_accounts">存取可用帳號。</string>
+    <string name="permdesc_killBackgroundProcesses">允許應用程式終止其他應用程式的背景處理任務。這項設定可能會導致其他應用程式停止執行。</string>
+    <string name="permdesc_shutdown">讓活動管理員進入關機狀態，而不執行完整的關機任務。</string>
+    <string name="permlab_runSetActivityWatcher">監視及控制所有應用程式的啟動任務</string>
+    <string name="permlab_setProcessLimit">執行程式限制數</string>
+    <string name="permdesc_setProcessLimit">允許應用程式控制可執行程式的數量上限 (一般應用程式不需使用)。</string>
+    <string name="permdesc_manageAppTokens">允許應用程式略過一般程序，直接建立及管理本身的憑證 (一般應用程式不需使用)。</string>
+    <string name="permdesc_signalPersistentProcesses">允許應用程式要求將提供的訊號傳送給所有持續運作中的處理任務。</string>
+    <string name="permdesc_clearAppCache">允許應用程式刪除應用程式快取目錄中的檔案以釋出手機的儲存空間。一般而言，只有系統程式才能執行這類檔案的存取動作。</string>
+    <string name="permdesc_receiveBootCompleted">允許應用程式在系統完成開機任務後立即自行啟動。這會增加手機的開機時間，而且會因為系統一直執行該應用程式導致手機的整體運作速度變慢。</string>
+    <string name="permlab_performCdmaProvisioning">直接起始 CDMA 手機設定程式</string>
+    <string name="permlab_getAccounts">尋找裝置上的帳號</string>
+    <string name="permdesc_getAccounts">允許應用程式取得手機上所記憶的帳號清單，其中可能包括您安裝的應用程式所建立的任何帳號。</string>
+    <string name="permlab_authenticateAccounts">建立帳號及設定密碼</string>
+    <string name="permdesc_authenticateAccounts">允許應用程式使用 AccountManager 的帳號驗證器功能，包括建立帳號、取得及設定帳號密碼。</string>
+    <string name="permlab_manageAccounts">新增或移除帳號</string>
+    <string name="permdesc_manageAccounts">允許應用程式執行新增、移除帳號和刪除帳號密碼等作業。</string>
+    <string name="permlab_useCredentials">使用裝置上的帳號</string>
+    <string name="permdesc_readSyncSettings">允許應用程式讀取帳號的同步處理設定，例如判斷「使用者」應用程式是否和某個帳號進行同步處理。</string>
+    <string name="permdesc_writeSyncSettings">允許應用程式修改帳號的同步處理設定，例如讓「使用者」應用程式與某個帳號進行同步處理。</string>
+    <string name="permdesc_readSyncStats">允許應用程式讀取帳號的同步處理統計資料，包括同步處理活動紀錄，以及同步處理的資料量。</string>
+    <string name="lockscreen_carrier_default">無服務</string>
+    <string name="lockscreen_missing_sim_message_short">無SIM卡</string>
+    <string name="lockscreen_glogin_forgot_pattern">帳號解鎖</string>
+    <string name="lockscreen_glogin_instructions">如要解除鎖定，請使用 Google 帳號登入。</string>
+    <string name="permlab_bindPackageVerifier">繫結至套件驗證程序</string>
+    <string name="aerr_process">很抱歉，處理任務 %1$s 已停止。</string>
+    <string name="anr_process">"%1$s 處理任務沒有回應。
+
+您要結束嗎？"</string>
+    <string name="smv_application">應用程式 %1$s (處理任務 %2$s) 已違反其自行強制實施的嚴格模式 (StrictMode) 政策。</string>
+    <string name="smv_process">處理任務 %1$s 已違反其自行強制實施的嚴格模式 (StrictMode) 政策。</string>
+    <string name="grant_credentials_permission_message_header">下列一或多個應用程式要求取得今後都可存取您帳號的權限。</string>
+    <string name="permission_request_notification_with_subtitle">"帳號 %s 已提出
+權限要求。"</string>
+    <string name="tethered_notification_title">網路共用或熱點已啟用</string>
+    <string name="sync_too_many_deletes_desc">帳號 %3$s 的%2$s會刪除 %1$d 個項目。您要如何處理？</string>
+    <string name="choose_account_label">選擇帳號</string>
+    <string name="add_account_label">新增帳號</string>
+    <string name="add_account_button_label">新增帳號</string>
+    <string name="action_bar_up_description">返回</string>
+</resources>

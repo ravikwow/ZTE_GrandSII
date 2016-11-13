@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/hf_weather_unknown" android:maxLevel="0" />
+    <item android:drawable="@drawable/hf_weather_sunny" android:maxLevel="1" />
+    <item android:drawable="@drawable/hf_weather_cloudy" android:maxLevel="2" />
+    <item android:drawable="@drawable/hf_weather_cloudy" android:maxLevel="3" />
+    <item android:drawable="@drawable/hf_weather_shower" android:maxLevel="4" />
+    <item android:drawable="@drawable/hf_weather_thundershower" android:maxLevel="5" />
+    <item android:drawable="@drawable/hf_weather_hail" android:maxLevel="6" />
+    <item android:drawable="@drawable/hf_weather_sleet" android:maxLevel="7" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="8" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="9" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="10" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="11" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="12" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="13" />
+    <item android:drawable="@drawable/hf_weather_showery_snow" android:maxLevel="14" />
+    <item android:drawable="@drawable/hf_weather_snow" android:maxLevel="15" />
+    <item android:drawable="@drawable/hf_weather_snow" android:maxLevel="16" />
+    <item android:drawable="@drawable/hf_weather_snow" android:maxLevel="17" />
+    <item android:drawable="@drawable/hf_weather_snow" android:maxLevel="18" />
+    <item android:drawable="@drawable/hf_weather_fog" android:maxLevel="19" />
+    <item android:drawable="@drawable/hf_weather_freezing_rain" android:maxLevel="20" />
+    <item android:drawable="@drawable/hf_weather_dust_storm" android:maxLevel="21" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="22" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="23" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="24" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="25" />
+    <item android:drawable="@drawable/hf_weather_light_rain" android:maxLevel="26" />
+    <item android:drawable="@drawable/hf_weather_snow" android:maxLevel="27" />
+    <item android:drawable="@drawable/hf_weather_snow" android:maxLevel="28" />
+    <item android:drawable="@drawable/hf_weather_snow" android:maxLevel="29" />
+    <item android:drawable="@drawable/hf_weather_dust" android:maxLevel="30" />
+    <item android:drawable="@drawable/hf_weather_sand" android:maxLevel="31" />
+    <item android:drawable="@drawable/hf_weather_dust_storm" android:maxLevel="32" />
+    <item android:drawable="@drawable/hf_weather_squall" android:maxLevel="33" />
+    <item android:drawable="@drawable/hf_weather_tornado" android:maxLevel="34" />
+    <item android:drawable="@drawable/hf_weather_blow_snow" android:maxLevel="35" />
+    <item android:drawable="@drawable/hf_weather_fog" android:maxLevel="36" />
+    <item android:drawable="@drawable/hf_weather_dust" android:maxLevel="54" />
+</level-list>

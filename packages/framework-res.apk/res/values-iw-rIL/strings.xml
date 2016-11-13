@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="volume_icon_description_bluetooth">Bluetooth</string>
+    <string name="volume_icon_description_ringer">עוצמת צלצול</string>
+    <string name="volume_icon_description_incall">שיחה</string>
+    <string name="volume_icon_description_media">מדיה</string>
+    <string name="volume_icon_description_notification">התראות</string>
+    <string name="lock_to_app_toast">על מנת לבטל הקפאת המסך, לחץ והחזק על מקש הבית ועל מקש ההפעלה בו זמנית למספר שניות.</string>
+    <string name="lock_to_app_toast_accessible">על מנת לבטל הקפאת המסך, לחץ והחזק על מקש הבית ועל מקש ההפעלה בו זמנית למספר שניות.</string>
+    <string name="lock_to_app_description">"נעילת מסך נועלת את התצוגה.
+
+על מנת לבטל נעילה, לחץ לחיצה ממושכת על לחצן הבית ועל לחצן ההפעלה בו זמנית."</string>
+    <string name="lock_to_app_description_accessible">"נעילת מסך נועלת את התצוגה.
+
+על מנת לבטל נעילה, לחץ לחיצה ממושכת על לחצן הבית ועל לחצן ההפעלה בו זמנית."</string>
+</resources>
