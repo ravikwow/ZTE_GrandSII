@@ -509,7 +509,7 @@
     .line 240
     const-string v1, "android"
 
-    const-string v2, "com.xiaomi.market"
+    const-string v2, "com.android.systemui"
 
     invoke-virtual {v0, v1, v2}, Landroid/content/pm/PackageManager;->checkSignatures(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -520,7 +520,7 @@
     .line 241
     new-instance v1, Ljava/lang/RuntimeException;
 
-    const-string v2, "System error : cannot find system app : com.xiaomi.market"
+    const-string v2, "System error : cannot find system app : com.android.systemui"
 
     invoke-direct {v1, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
