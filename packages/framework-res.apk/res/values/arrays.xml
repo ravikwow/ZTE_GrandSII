@@ -322,8 +322,10 @@
         <item>0</item>
     </integer-array>
     <string-array name="config_locationProviderPackageNames">
+        <item>org.microg.nlp</item>
         <item>com.google.android.gms</item>
         <item>com.android.location.fused</item>
+        <item>com.qualcomm.location</item>
     </string-array>
     <array name="config_twoDigitNumberPattern" />
     <array name="config_sms_enabled_single_shift_tables" />
